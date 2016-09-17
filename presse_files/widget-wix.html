@@ -1,0 +1,2301 @@
+<!DOCTYPE html>
+<!-- saved from url=(0570)https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&compId=TPWdgt1-s83&deviceType=desktop&instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&locale=en&viewMode=site&width=948#/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Wix Comments</title>
+		<meta name="description" content="Wix Comments Application">
+		<meta name="viewport" content="width=device-width">
+
+		<script type="text/javascript" async="" src="./mixpanel-2-latest.min.js"></script><script async="" src="./analytics(1).js"></script><script type="text/javascript">
+			(function() {
+				var compId = /[&?]compId=([^&]+)/.exec(window.location.search);
+				try {
+					parent.postMessage(JSON.stringify({
+						intent: 'TPA2',
+						callId: 1,
+						type: 'appIsAlive',
+						compId: compId ? compId[1] : '',
+						deviceType: 'desktop',
+						data: {version: '1.62.0'}
+					}), '*');
+				} catch (e) {
+					console.error(e);
+				}
+			})();
+			Function.prototype.bind||(Function.prototype.bind=function(a){if("function"!=typeof this)throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");var b=Array.prototype.slice.call(arguments,1),c=this,d=function(){},e=function(){return c.apply(this instanceof d?this:a,b.concat(Array.prototype.slice.call(arguments)))};return this.prototype&&(d.prototype=this.prototype),e.prototype=new d,e});
+		</script>
+
+		<link rel="stylesheet" href="./2f427490.main.css">
+	<style type="text/css"></style><style type="text/css">.comments-demo-form .compose-form .profile-image {
+  display: none; }
+
+.comments-demo-form .compose-form .compose-box {
+  margin-left: 0; }
+
+.comments-demo-form .compose-form div.author-control {
+  visibility: hidden; }
+</style><style type="text/css">.comments-app.mobile h3 {
+  font-size: 16px;
+  line-height: inherit;
+  margin-top: 10px;
+  font-weight: 700; }
+
+.comments-app comments-compose:first-child {
+  margin-top: 16px; }
+
+.comments-app .upgrade-notice {
+  margin-bottom: 20px; }
+  .comments-app .upgrade-notice:first-child {
+    margin-top: 16px; }
+
+.comments-app span.load-spinner {
+  display: inline-block;
+  position: relative;
+  left: 12px; }
+
+.comments-app .comment-list {
+  clear: both;
+  list-style-type: none;
+  margin: 0 0 16px;
+  padding: 0;
+  overflow: auto;
+  max-height: 4800px; }
+  .comments-app .comment-list li {
+    margin-bottom: 18px;
+    list-style-type: none;
+    padding-left: 58px;
+    min-height: 50px;
+    position: relative; }
+    .comments-app .comment-list li .profile-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+      line-height: 50px;
+      height: 50px;
+      width: 50px; }
+      .comments-app .comment-list li .profile-image img {
+        max-height: 50px;
+        max-width: 50px;
+        border-radius: 3px;
+        overflow: hidden; }
+    .comments-app .comment-list li .content {
+      min-height: 2em; }
+    .comments-app .comment-list li .author {
+      opacity: 0.8; }
+    .comments-app .comment-list li .author-heading {
+      font-weight: bold;
+      opacity: 1;
+      display: block; }
+      .comments-app .comment-list li .author-heading + .content {
+        min-height: 0; }
+    .comments-app .comment-list li star-rating {
+      display: block; }
+    .comments-app .comment-list li .website-link:before {
+      content: "\B7";
+      padding: 0 0.2em 0 0.2em;
+      opacity: 0.8; }
+    .comments-app .comment-list li .timestamp {
+      opacity: 0.8; }
+      .comments-app .comment-list li .timestamp:not(:first-child):before {
+        content: "\B7";
+        padding: 0 0.4em 0 0.2em; }
+    .comments-app .comment-list li .action-link:before {
+      content: "\B7";
+      padding: 0 .25em 0 0; }
+    .comments-app .comment-list li .action-link a {
+      cursor: pointer; }
+    .comments-app .comment-list li > .reply-box {
+      margin-top: 16px; }
+    .comments-app .comment-list li .reply-list {
+      padding: 0;
+      margin: 12px 0 0 0; }
+      .comments-app .comment-list li .reply-list li {
+        min-height: 40px;
+        padding-left: 48px;
+        margin-bottom: 12px; }
+        .comments-app .comment-list li .reply-list li .profile-image {
+          height: 38px;
+          width: 38px;
+          line-height: 38px;
+          left: 0; }
+          .comments-app .comment-list li .reply-list li .profile-image img {
+            max-width: 38px;
+            max-height: 38px;
+            overflow: hidden; }
+        .comments-app .comment-list li .reply-list li .content {
+          min-height: 1.4em; }
+  .comments-app .comment-list li.load-more {
+    min-height: 0; }
+    .comments-app .comment-list li.load-more span.load-link,
+    .comments-app .comment-list li.load-more span.shrink-link {
+      cursor: pointer;
+      opacity: 0.7; }
+      .comments-app .comment-list li.load-more span.load-link:hover,
+      .comments-app .comment-list li.load-more span.shrink-link:hover {
+        opacity: 0.9; }
+    .comments-app .comment-list li.load-more span.shrink-link:not(:first-child):before {
+      content: "\B7";
+      padding: 0 0.4em 0 0.2em; }
+  .comments-app .comment-list.has-background li.comment-box {
+    padding: 8px 8px 0 70px;
+    border-radius: 8px; }
+    .comments-app .comment-list.has-background li.comment-box > .profile-image {
+      left: 8px;
+      top: 8px; }
+    .comments-app .comment-list.has-background li.comment-box .reply-list {
+      padding-bottom: 4px; }
+  .comments-app .comment-list .comment-approval-message {
+    padding: 8px;
+    min-height: 0; }
+    .comments-app .comment-list .comment-approval-message:before {
+      font-family: FontAwesome;
+      content: "\F00C";
+      vertical-align: middle;
+      margin: 0 8px 0 12px;
+      font-size: 24px; }
+
+.comments-app .comments-attachment-image {
+  max-width: 100%;
+  max-height: 400px; }
+
+body.demo-mode .comments-app {
+  min-height: 375px;
+  overflow-y: auto;
+  padding-right: 4px; }
+  body.demo-mode .comments-app h3 {
+    margin-top: 0; }
+
+.complete-setup-message {
+  background: #de5e07;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 0 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid #000000 2px; }
+  .complete-setup-message h1 {
+    margin-bottom: 16px; }
+    .complete-setup-message h1 .comments-logo {
+      display: inline-block;
+      vertical-align: middle;
+      width: 56px;
+      height: 49px;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABWCAYAAABVVmH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA25pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyOTJkZjVlZS03NTM1LWM0NGQtOGVhYi0zNzIzMTAyMjk2NjYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzYxQkQ5MEY0RDFGMTFFNEFCREFGRDk3QUNGNjgyNzciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzYxQkQ5MEU0RDFGMTFFNEFCREFGRDk3QUNGNjgyNzciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1RjhFMkVCOTY2NENFNDExOUEyNUFFQTA0RjUwMTk2RCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyOTJkZjVlZS03NTM1LWM0NGQtOGVhYi0zNzIzMTAyMjk2NjYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6RNuICAAAIMklEQVR42uydC2wUdR7Hv7Oz77ZLW+0DBCoIp0jwdVcRSLyE89DL0YJnPGOMipqcnkbvSC5i9DTReMcdOYkXE088tZjDkDNF8YiHVyPGR8EIIj5QLEUKtS3Qlj63233MjL/f7AxUrmi7O9uZWf7f5NfdbHdmZz77+/9+v/9jdqSDKwI4jTxkPye7luwnZFPIyslknJlSyI6RtZPtInuV7E0ydbQ3S6cBu4zsr2TnQ+j79BXZKrLXRvPKkWLKdWSbBdQx6XyDVZ3B7oS8I577ybYYzV9ofFpBdg7ZUrLEqR77jICalZjdulNDQS3ZbYKNJZ67zATLtkYwsUyc9D1mSSUSlbUJbYnHqFOFrNVyBrtAcLBcCxhsleBguc5lsJMEB8sV8QgGuZEAK8AKsEICrAArwAoJsDmV14kHJQUK4D1rOtk0yJFySL4APOFiQFWhDvdDS8SQ6u2AcvwbpLpboSWHBdjR5Cs/D6F5SxCYfQX8VZfBVzGL6Epj2lZTU0i270Oi5WPE92/H0KdbofQesd85Dq4IaLZ8o2dXoXDhTShYcCN8lbOt27GmIXF4Dwa3b0T0g41Q+jvPDLDB2QsRWXo/wvOuHrNXZsxYSWLow3r0vf43JNr25idY3zlzUXrTWoTm/HTi3Ye8OLqzHj0vP6jH5LwAK/lDKL7uMUSu+i0kj70hnZNe739Wo2/rE5QIFfeC9U27CGV3vQj/lDmOytjDTY3oWncrUlRVuK6ODV22HFMeettxUPU4/6NFmPxIIwIzq90Dlt0/vOhmVNzzkl6POlXypApUrmpA6MLFzgfLUEPV16P89mdoz85fO8fxv/x39boHOxYsQ/XOWoSK3zzvCqgn4YZRfl+93klxHFiGqoVKUHn3Bkhev/sGTApKUHb3S5YeuyVgVSJbcsNq+Eomu3bQxF91CSLXrHQOWIYqz7wCJVfeCreruOYBffDHdrAcAhT6U1r7QM67pxOVzCZRd9v2DgJD1SrmYNZfdo8LrNLbgY4/L845KG/xZFQ+uG3cvbPWlTOgDvVm99nZbKyoQGT+9eP2Vk1JIdV5MPcuqKYy8trwpUsx2LjBHrAcW1MM9sc14y/OKclNXfPlBKT7zE4vfGmNvWAVfwHC0+eO3yvohL1lMxwbawPnXW5f8mKwvmnzmBLyTTLFZrnwrIkHa1YDPB+Vr2K4Ex4KNC3tsRJP8GWS9BxcFZwIV6GIDWCNUKBpmVVqTq4KTmyqJO1JXow0NdiTWTNzeFWgg43aWMcOdzRl1swcXhXwlDrPLmTTl8w4pXvoU2MdzVDjQ3mXuBLtXwHJ2MRXBQxVv0BMVdC3b3vegR368t3sE2dGTRnpK8S4J9u54xWUXHxVXlUFgztfgWQHWD0B0Sd7CW73jk1QVqyBHCzMi6ogfvQA4k2N8Eo2geVQ4KOYEI/1oqPhOUyt/X1eVAXd//07nZua9UdnPGzIGw2TQ/QnNKRCpbj8qb3wFZW6OrbG2vah9Y/V8CGZdSjIuCqQdI8FAhwTosfx9YaH3J2xqLPTXncvZDV7qFmBNauDgEyAyY6+9QIlslddy/XIlrVINr2XvmzbCWD9tIcgeS17b9M/7kT08Oeug9r32TZ01T+in4NVE0xZfz8eHWzatFgfPnu8FvGuVtdAHWzeicNP/hoBSdEdBU4By8fCZVeQ6hOGm+xpw56Hf0a9sgOOh9q/rxHNq38Jf3JQPwcrp0MtiSh6SCCoYV8abqLrEL548hZHQz327kYc+NMvEEj0WxoCLBmEObXDwIkMmkSlmAZfMOxIoMrwIA6u/wP63qlDmFoZH7MnBzP3lq4ENuGmCG6w1HmrYnr2vImW5+8Dur5GAbUuTryeHC2HsHyJNY8f8MEGy53z+xIDzbtw6N+PIvppA0KcCwiqN4dQcwJWS9faCE290N56X0mie/cbOLL1aQx8vk1vSUXspfQo5yCm5hwsk+WJxqLZY5tCjrXvR7L/GL1/PiQ5u8NRk8Po++J9dH+0Fd2NL0MdOKaDLPSlY2muvTSnYHn4gheWBSt/eL1pR8M/cWD9/VASQ/roWOSChSiccTGKzr0IgbIqBMumw19c8f9T7KqCeE8H4p2HEDvagmjrXgzs30k16S4qSYZ0j+T46fenOy4m0IlcXWY9WPLWSHXt974nQVCan70HA7tfp8KcPJw7F4lBDHzSgD4yDiWaGVc4bvuD8PhD6f1TVudmLpnx3Cj39LjOEA2YPs/J1+1Yrue1GqpCFcHZi+8Y/f+JGNrfWIe2TY9TUT6AIoLAlYRqhA9essQzv/xcNfZn1EgUM4Z1QjpQbxoob+shcl4DoCyZr9kDM2dg2dMKqn+F8NTvXinD82JH3v4X2l9bA63nG4TldGaWDSBmwtPXKxAS02PN10dWHGZvb6TH8qMk2Q8zJ2B1CJEKTLll7YmszImkc8cmdG+vJ4/r0QdrAmb9OMKrTEj8RD7Nvs33uUWWXUDHSzo9c5cgVViBaNt+RFv2QErGdK/kzMzjtgxU9rgLkK1geQcJBRhKaoirJwdmeOrm1ERypsiSUMBxkJnpXik7L5G4FqxkzNiazdxpicS9YJEX13ZYKvFjOwKs+8AqAkNuwHYKDJarn8G2CQ6Wq4XB7hIcLNcOBrtZcLBcmxlsA9J3+RGyRsyygcHy0OcqwcMyMUvVrGP5flR1gknWWm+w/E4H4S6k76gmlJmY3Z2j9bz4PlQ1BnWh8XtqjcFw1C5tHOnbTy0XCW1M4gvdrjWYxUf+Q/qBm1FebUCeTzaTrOgMBzlAxlelfGCUqf/DaW5G+a0AAwCC3JMBa35V1QAAAABJRU5ErkJggg==);
+      background-position: -14px -20px; }
+  .complete-setup-message div.content {
+    padding: 6px;
+    background-color: #7a000f;
+    display: block; }
+
+a.comments-comment-upvote-link:focus {
+  outline: none; }
+
+.lang-he .comments-app, .lang-he_ronen .comments-app,
+.lang-ar .comments-app,
+.lang-fa .comments-app {
+  direction: rtl; }
+  .lang-he .comments-app .comment-list li, .lang-he_ronen .comments-app .comment-list li,
+  .lang-ar .comments-app .comment-list li,
+  .lang-fa .comments-app .comment-list li {
+    text-align: right;
+    padding-right: 58px;
+    padding-left: 8px; }
+    .lang-he .comments-app .comment-list li .profile-image, .lang-he_ronen .comments-app .comment-list li .profile-image,
+    .lang-ar .comments-app .comment-list li .profile-image,
+    .lang-fa .comments-app .comment-list li .profile-image {
+      right: 0px; }
+  .lang-he .comments-app .comment-list.has-background li, .lang-he_ronen .comments-app .comment-list.has-background li,
+  .lang-ar .comments-app .comment-list.has-background li,
+  .lang-fa .comments-app .comment-list.has-background li {
+    padding-right: 70px; }
+    .lang-he .comments-app .comment-list.has-background li .profile-image, .lang-he_ronen .comments-app .comment-list.has-background li .profile-image,
+    .lang-ar .comments-app .comment-list.has-background li .profile-image,
+    .lang-fa .comments-app .comment-list.has-background li .profile-image {
+      right: 8px; }
+</style><style type="text/css">.comments-heart-button {
+  position: relative; }
+  .comments-heart-button .fa-heart {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    transition: 0.3s ease opacity; }
+    .comments-heart-button .fa-heart.ng-enter {
+      opacity: 0; }
+    .comments-heart-button .fa-heart.ng-enter.ng-enter-active {
+      opacity: 1; }
+    .comments-heart-button .fa-heart.ng-leave {
+      opacity: 1; }
+    .comments-heart-button .fa-heart.ng-leave.ng-leave-active {
+      opacity: 0; }
+</style><style type="text/css">.snake-loader {
+  position: relative;
+  margin: 4px auto;
+  width: 240px;
+  height: 29px; }
+  .snake-loader div {
+    position: absolute;
+    top: 0;
+    background-color: #000000;
+    width: 29px;
+    height: 29px;
+    -moz-animation-name: snake_loader_bounce;
+    -moz-animation-duration: 1.3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: linear;
+    -moz-transform: scale(0.3);
+    -moz-border-radius: 19px;
+    -webkit-animation-name: snake_loader_bounce;
+    -webkit-animation-duration: 1.3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: linear;
+    -webkit-transform: scale(0.3);
+    -webkit-border-radius: 19px;
+    -ms-animation-name: snake_loader_bounce;
+    -ms-animation-duration: 1.3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: linear;
+    -ms-transform: scale(0.3);
+    -ms-border-radius: 19px;
+    -o-animation-name: snake_loader_bounce;
+    -o-animation-duration: 1.3s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: linear;
+    -o-transform: scale(0.3);
+    -o-border-radius: 19px;
+    animation-name: snake_loader_bounce;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    transform: scale(0.3);
+    border-radius: 19px; }
+  .snake-loader .snake-loader-1 {
+    left: 0;
+    -moz-animation-delay: 0.52s;
+    -webkit-animation-delay: 0.52s;
+    -ms-animation-delay: 0.52s;
+    -o-animation-delay: 0.52s;
+    animation-delay: 0.52s; }
+  .snake-loader .snake-loader-2 {
+    left: 30px;
+    -moz-animation-delay: 0.65s;
+    -webkit-animation-delay: 0.65s;
+    -ms-animation-delay: 0.65s;
+    -o-animation-delay: 0.65s;
+    animation-delay: 0.65s; }
+  .snake-loader .snake-loader-3 {
+    left: 60px;
+    -moz-animation-delay: 0.78s;
+    -webkit-animation-delay: 0.78s;
+    -ms-animation-delay: 0.78s;
+    -o-animation-delay: 0.78s;
+    animation-delay: 0.78s; }
+  .snake-loader .snake-loader-4 {
+    left: 90px;
+    -moz-animation-delay: 0.91s;
+    -webkit-animation-delay: 0.91s;
+    -ms-animation-delay: 0.91s;
+    -o-animation-delay: 0.91s;
+    animation-delay: 0.91s; }
+  .snake-loader .snake-loader-5 {
+    left: 120px;
+    -moz-animation-delay: 1.04s;
+    -webkit-animation-delay: 1.04s;
+    -ms-animation-delay: 1.04s;
+    -o-animation-delay: 1.04s;
+    animation-delay: 1.04s; }
+  .snake-loader .snake-loader-6 {
+    left: 150px;
+    -moz-animation-delay: 1.17s;
+    -webkit-animation-delay: 1.17s;
+    -ms-animation-delay: 1.17s;
+    -o-animation-delay: 1.17s;
+    animation-delay: 1.17s; }
+  .snake-loader .snake-loader-7 {
+    left: 180px;
+    -moz-animation-delay: 1.3s;
+    -webkit-animation-delay: 1.3s;
+    -ms-animation-delay: 1.3s;
+    -o-animation-delay: 1.3s;
+    animation-delay: 1.3s; }
+  .snake-loader .snake-loader-8 {
+    left: 210px;
+    -moz-animation-delay: 1.43s;
+    -webkit-animation-delay: 1.43s;
+    -ms-animation-delay: 1.43s;
+    -o-animation-delay: 1.43s;
+    animation-delay: 1.43s; }
+
+@-moz-keyframes snake_loader_bounce {
+  0% {
+    -moz-transform: scale(1);
+    background-color: #000000; }
+  100% {
+    -moz-transform: scale(0.3);
+    background-color: #FFFFFF; } }
+
+@-webkit-keyframes snake_loader_bounce {
+  0% {
+    -webkit-transform: scale(1);
+    background-color: #000000; }
+  100% {
+    -webkit-transform: scale(0.3);
+    background-color: #FFFFFF; } }
+
+@-ms-keyframes snake_loader_bounce {
+  0% {
+    -ms-transform: scale(1);
+    background-color: #000000; }
+  100% {
+    -ms-transform: scale(0.3);
+    background-color: #FFFFFF; } }
+
+@-o-keyframes snake_loader_bounce {
+  0% {
+    -o-transform: scale(1);
+    background-color: #000000; }
+  100% {
+    -o-transform: scale(0.3);
+    background-color: #FFFFFF; } }
+
+@keyframes snake_loader_bounce {
+  0% {
+    transform: scale(1);
+    background-color: #000000; }
+  100% {
+    transform: scale(0.3);
+    background-color: #FFFFFF; } }
+</style><style type="text/css">html body {
+  background-color: transparent;
+  margin: 0; }
+
+body.weebly-app {
+  overflow: hidden; }
+
+body .container {
+  width: auto;
+  max-width: none; }
+
+@media (max-width: 767px) {
+  body.wix-app,
+  body.weebly-app {
+    padding: 0; }
+  body .container {
+    padding: 0 12px; } }
+
+textarea.animate-grow {
+  resize: none;
+  transition: 0.05s;
+  -moz-transition: 0.05s;
+  -webkit-transition: 0.05s;
+  -o-transition: 0.05s; }
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.ng-cloak {
+  display: none !important; }
+
+.placeholder-active {
+  color: #999; }
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
+*/
+@font-face {
+  font-family: "AhmedLTW20-OutlineRegul";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/bc9495bd-5edc-4c5b-be28-dfb45e27e688.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/bcaca41c-2840-4aef-9fb4-f0c66589e9cd.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arian-LT-W20-Light";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c977bad6-94c3-457c-9771-d8e0017a33c2.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/a7bdf7c7-b425-4dae-b583-9f86ec510f9f.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arian-LT-W20-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c257a373-9919-458c-b7b2-83850775058d.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/afa67eb7-2358-4d1d-bdcd-da0436f5cfb2.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Janna-LT-W20-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/26c24286-5aab-4747-81b9-54330e77fb14.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/9c4c7fff-85b6-442f-9726-af5f49d49e53.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Kufi-LT-W20-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/e0e311dc-5674-493c-8c19-f0a0a1422837.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/96829dee-2b11-4389-a3b6-35eabd423234.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "HelveticaNeueLTW20-Ligh";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b8ee7e47-48e4-4b5b-8a74-cf02708fb54a.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/074fa346-a8c5-4331-9d93-7a06123af067.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Midan-W20";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/be87d34b-77db-4286-87d9-d2964115c6c5.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/539016b8-1f78-4507-b542-c9e55b269ac6.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "TanseekModernW20-Light";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/688d77ff-8c0d-4baf-ac95-f45c034e1caf.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/177fb002-a619-4d25-8a79-af7d0e9a1ee6.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DINNextLTW23-UltraLight";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/63b0b154-64e6-4846-be80-b601f3ce9b28.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/f3f08f13-d46f-4589-90ac-70c0a21cd061.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ArabicTypesettingW23-Re";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/5a32e87e-0f32-4971-a43f-4ec453bc74ca.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/50f516bf-5611-4134-9556-2131aaea2b78.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CoHeadlineW23-ArabicBol";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b15a6899-c706-46a9-8c2b-a80b62ba301b.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/36ad9b9b-5fb9-49e6-ad2d-1daafccea16a.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Amiri';
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/amiri-regular.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/amiri-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Droid-Naskh';
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/droidnaskh-regular.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/droidnaskh-regular.ttf") format("truetype"); }
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
+*/
+@font-face {
+  font-family: "DIN-Next-W10-Light";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/a9e95a29-98a7-404a-90ee-1929ad09c696.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/0a7663fd-eae8-4e50-a67a-225271f8cceb.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Helvetica-LT-W10-Bold";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/0a3939d0-3833-4db3-8b85-f64c2b3350d2.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/1b128d6d-126f-4c9c-8f87-3e7d30a1671c.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Helvetica-LT-W10-Roman";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/6f8d1983-4d34-4fa4-9110-988f6c495757.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/7903ee3f-e9ab-4bdc-b7d2-d232de2da580.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Bodoni-Poster-W10";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/e04da7b7-ccbf-4cbf-b19a-947551d17de6.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/cb3483cd-190a-4634-b345-d88f22f1e6f5.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Droid-Serif-W10-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/571d67cb-de3d-41af-8c0a-06a53d490466.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/70f941f5-d702-4e7b-8b15-ee65e6b855b9.ttf") format("truetype"); }
+
+/* Mobile system fallbacks */
+@font-face {
+  font-family: "Comic-Sans-W10-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/73381861-eb6a-4f7c-8c14-cd34a714f943.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/93adf2cf-f54c-4a73-8ec7-43fe0b2c91a1.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Courier-PS-W10";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/2593bfe2-2f34-4218-a1e2-fde3bdc686e1.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/e84e67b7-d822-43f4-80a9-315fddffd712.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Impact-W10-2010";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/1c7b5ef1-5b09-4473-8003-a974846653a7.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/805172a0-d718-48ac-9053-873641b3e236.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Lucida-Console-W10-0";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/2c0bffef-a666-4646-a4bc-7faf1fa689f5.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/4696d714-e3c0-4351-9df8-2e4449d30c3d.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Tahoma-W10-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/9ee00678-b6d7-4b4f-8448-70cfa267d36b.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/6861fb60-a657-44e2-92fa-86bd26cd2657.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial-W10-Black";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/7cfb7eb0-2332-4048-a7f4-2c3fa389c3a3.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/2edafc36-cb97-4b1a-8803-a7b2e6125929.ttf") format("truetype"); }
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
+*/
+@font-face {
+  font-family: "Adler-W26-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/fcb3f76f-a112-479e-ab7f-ab1c2be906c9.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/ceda4e97-a631-4986-8cab-709e1775be33.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Frank-Ruhl-W26-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/0e834425-e268-4b38-b5a8-f24b8632d6ae.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/cb5aceab-5dbf-4c09-b650-7c9d526cc117.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Haim-Arukeem-W26-Medium";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/f70c24b0-d6be-4d04-99cd-46efc41d00b4.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/2dd64ac4-7c3a-47fb-acdb-063b811c93d5.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Miriam-W26-Medium";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/21aeb0a3-3309-4415-818b-36f94e2a1a3a.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c5acaffd-7553-42ff-a693-8b9be795b4b3.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Nekudot-W26-Bold";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c28b65cd-9544-42f1-9ffc-d6ffa544e6fb.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/9aa74607-c9af-4c4b-9a3f-fc76488dca25.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Gulash-W26-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/64f53eeb-1d5e-493c-aa3b-aa8e2c066320.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/7e32a874-81bc-4d38-87aa-ff626ce5a400.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Shabazi-W26-Bold";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/09048cb1-f6a6-4b44-9d96-6d20013ef7e8.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/fec4486e-254a-4cb4-b1a0-859cf2190792.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Chips-W26-Normal";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/e526922d-4fe2-4e4d-834d-6b62ebd244da.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/03e7eb16-072f-4c53-b299-08535bff2421.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Alef-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/alef-regular.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/alef-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSansHebrewCondensed-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-hebrew-condensed-regular.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-hebrew-condensed-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'almoni-dl-aaa-300';
+  font-weight: 300;
+  /*(light)*/
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-300.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-300.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'almoni-dl-aaa-400';
+  font-weight: 400;
+  /*(regular)*/
+  font-style: normal;
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-400.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-400.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'almoni-dl-aaa-700';
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-700.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-700.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'asimon-aaa-400';
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/asimon-aaa-400.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/asimon-aaa-400.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'atlas-aaa-500';
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/atlas-aaa-500.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/atlas-aaa-500.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'mixtape-aaa-400';
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/mixtape-aaa-400.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/mixtape-aaa-400.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'museum-aaa-400';
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/museum-aaa-400.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/museum-aaa-400.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'omes-aaa-400';
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/omes-aaa-400.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/omes-aaa-400.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'MeodedPashut-oeregular';
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/meodedpashut_oeregular.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/meodedpashut_oeregular.ttf") format("truetype"); }
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
+*/
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
+*/
+@font-face {
+  font-family: "FBBlueGothicL";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/1a10c1c0-157a-4f57-96c1-1af2fc242e06.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/31b02a27-3c41-4593-bfbf-84702627c9fd.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FBChamBlue";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/75c0e570-e4e0-4e86-a031-1ade01e5b3f5.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b9eacc4f-ef9b-4ff5-bf09-ffca8edc43e2.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FBGreen";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/399c1f00-ff31-4f87-868c-bcbfcabcdd51.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/ad6cc8e5-052c-4d6c-ab7b-66b2f70edb5f.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FBNeoGothic";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c52a9d59-984f-45b4-bfd7-6f6af54eb89f.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/58e6245d-754a-4a05-9bd2-25a655e31640.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FBPlum";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/101fd386-ed60-4ed9-8ac2-80d0492347ac.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/5539addf-e60b-4fba-a356-cbab8abd16c6.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "NanumGothic-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/nanum-gothic-regular.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/nanum-gothic-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "BM-HANNA";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/bm-hanna.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/bm-hanna.ttf") format("truetype"); }
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
+*/
+@font-face {
+  font-family: "Helvetica-W01-Roman";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/4021a3b9-f782-438b-aeb4-c008109a8b64.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/669f79ed-002c-4ff6-965c-9da453968504.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Helvetica-W01-Bold";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c5749443-93da-4592-b794-42f28d62ef72.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/73805f15-38e4-4fb7-8a08-d56bf29b483b.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Braggadocio-W01";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/518e4577-eecc-4ecd-adb4-2ee21df35b20.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/f46241ad-1f5d-4935-ad69-b0a78c2e191d.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Clarendon-W01-Medium-692107";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b6878f57-4d64-4d70-926d-fa4dec6173a5.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/0a6b6eff-6b5d-46d4-b681-f356eef1e4c1.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DIN-Next-W01-Light";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/bc176270-17fa-4c78-a343-9fe52824e501.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SnellRoundhandW01-Scrip";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/efbfc170-aaf0-4472-91f4-dbb5bc2f4c59.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/d974669d-978c-4bcf-8843-b2b7c366d097.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Stencil-W01-Bold";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/a9eddc47-990d-47a3-be4e-c8cdec0090c6.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/8d108476-7a62-4664-821f-03c8a522c030.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Helvetica-W01-Light";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/d5f9f72d-afb7-4c57-8348-b4bdac42edbb.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Victoria-Titling-MT-W90";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/faceff42-b106-448b-b4cf-5b3a02ad61f1.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/82f103e4-7b1c-49af-862f-fe576da76996.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "AmericanTypwrterITCW01--731025";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/0c0f4d28-4c13-4e84-9a36-e63cd529ae86.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/7f26a278-84b3-4587-bf07-c8cdf7e347a9.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Soho-W01-Thin-Condensed";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/f84b539d-ed34-4400-a139-c0f909af49aa.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/9ef27401-09c0-434f-b0f0-784445b52ea2.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Pacifica-W00-Condensed";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/6849614c-986c-45b1-a1a7-39c891759bb9.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/8ccb835c-4668-432d-8d1d-099b48aafe4e.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Avenida-W01";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/53f05821-c783-4593-bf20-c3d770f32863.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b7215bbe-7870-4733-9e81-28398fbed38b.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ITC-Arecibo-W01-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/5d6cd606-b520-4335-96e1-755691d666e8.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/03d7d783-5b99-4340-b373-97c00246ec27.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Droid-Serif-W01-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/83ae2051-dcdd-4931-9946-8be747a40d00.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/63f35b58-a40f-4f53-bb3e-20396f202214.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Museo-W01-700";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/28d74e9b-4ea9-4e3c-b265-c67a72c66856.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b432b4e1-014a-4ed8-865c-249744f856b0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Museo-Slab-W01-100";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/cacc0862-f146-4746-92b1-60e6114a66c4.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/54006f54-b61e-4103-abf8-b1d0294a2a9c.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Geotica-W01-Four-Open";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/cc0b2292-9358-41ee-b3b9-429952586f69.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/8558b493-da55-4e6f-b473-56d9c7dff2a4.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Marzo-W00-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/e947b76a-edcf-4519-bc3d-c2da35865717.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c09cb36e-5e79-4033-b854-41e57fbf44fa.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "ReklameScriptW00-Medium";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/05b176f5-c622-4c35-af98-c0c056dd5b66.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/9dcb5a3c-1c64-4c9c-a402-995bed762eb7.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Nimbus-Sans-TW01Con";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/8fb1090e-b4d0-4685-ac8f-3d0c29d60130.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/5d5fc44e-e84b-48ca-a5a7-bed8bdbf79a1.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Bodoni-W01-Poster";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/4d1b9848-7ebd-472c-9d31-4af0aa7faaea.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/197b5ef7-65e6-4af6-9fd9-bc9fc63038c7.ttf") format("truetype"); }
+
+/* Mobile system fallbacks */
+@font-face {
+  font-family: "Comic-Sans-W01-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/234c98b8-36ae-45ab-8a55-77980708b2bc.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/7ff2970c-1d51-47be-863d-b33afda8fb40.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Courier-PS-W01";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b059d02a-a222-4c63-9fd3-705eaeea1c16.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/52e3d484-7188-4c9e-964e-b7a75e9dfa2f.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Impact-W01-2010";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/4cefdf47-0136-4169-9933-3225dbbec9d9.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/f7450934-42f3-4193-befa-c825772a9454.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Lucida-Console-W01";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/60f4a13f-3943-432a-bb51-b612e41239c5.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/38229089-ebec-4782-b8f2-304cfdcea8d8.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Tahoma-W01-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/20323430-24f4-4767-9d4d-060d1e89758a.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/6e17e62d-30cb-4840-8e9d-328c6b62316e.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial-W01-Black";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c6f5bcd6-66fc-44af-be95-bb1f2b38d080.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/7b5b436b-a511-402a-88d6-dbac700cee36.ttf") format("truetype"); }
+
+/* Greek and others */
+@font-face {
+  font-family: "Tahoma-W15--Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/ae844b11-5158-4caf-90b4-7ace49ac3440.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/e63ef4f4-b7b9-4f13-8db5-d7f5cf89839f.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Tahoma-W99-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/d3bbaa1b-d5e3-431f-93a7-9cea63601bb6.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/78cb924f-227d-4ab9-83d5-f2b2e6656da5.ttf") format("truetype"); }
+
+/*******************/
+@font-face {
+  font-family: "Coquette-W00-Light";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/4e5374b3-a214-41e5-81f0-a34c9292da7e.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c20581c8-0023-4888-aeaa-9d32636dc17f.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Rosewood-W01-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/4d9bc879-ab51-45da-bf37-c9710cd1cc32.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/a5564fdb-3616-4f27-a4e4-d932b6ae5b4a.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "segoe_printregular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/segoe_print-webfont.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/segoe_print-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-regular-webfont.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-regular-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-bold-webfont.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-bold-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-italic-webfont.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-italic-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-bolditalic-webfont.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/open-source/opensans-bolditalic-webfont.ttf") format("truetype"); }
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
+*/
+@font-face {
+  font-family: "Helvetica-W02-Roman";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b56b944e-bbe0-4450-a241-de2125d3e682.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/7da02f05-ae8b-43a1-aeb9-83b3c0527c06.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Helvetica-W02-Bold";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/192dac76-a6d9-413d-bb74-22308f2e0cc5.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/47584448-98c4-436c-89b9-8d6fbeb2a776.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Clarendon-W02-Medium-693834";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/01681361-4a95-4651-a6c8-4005d0fc4a79.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/fdc26895-148e-4fa8-898d-5eb459dabecf.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DIN-Next-W02-Light";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/07d62b21-8d7a-4c36-be86-d32ab1089972.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/c0050890-bbed-44b9-94df-2611d72dbb06.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "AmericanTypwrterITCW02--737091";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/4e5713c6-f9bf-44d7-bc17-775b7c102f1c.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/80e40eb9-815f-4b42-9e99-297117a6ef52.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Helvetica-W02-Light";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/80c34ad2-27c2-4d99-90fa-985fd64ab81a.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b8cb02c2-5b58-48d8-9501-8d02869154c2.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Soho-W02-Thin-Condensed";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/68eb3cfd-be6c-4f9e-8ca4-e13ce8d29329.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/6db04d94-de0b-4bf0-bf94-113fd27e7440.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Avenida-W02";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/582278da-0505-4fbe-9102-2b529c7c973a.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b82fbde2-1655-4728-96a9-90ef022c4590.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Droid-Serif-W02-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/764779cf-076d-427a-87b4-136ccc83fba0.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/f32cc734-5673-41a1-bd6e-1900c78691f5.ttf") format("truetype"); }
+
+/* Mobile system fallbacks */
+@font-face {
+  font-family: "Comic-Sans-W02-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/301e2ea2-8153-453c-9051-0a729098e682.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/cbe882c0-2ac0-4a28-8fe7-14e527942047.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Courier-PS-W02";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/bcc470b9-5a9b-45e9-bf60-6daca06bc70e.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/f9018056-f579-4c4c-95ea-9bd02b859724.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Impact-W02-2010";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/eb1185bb-8f9d-4855-83fa-d06f0efef677.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/5386718d-bec6-41c5-b998-12dd1c859c53.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Lucida-Console-W02";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/3e5b24ea-4345-4830-8c7d-0e7ef26b4e63.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/7b175f51-ff6c-47d2-908c-ee8538c2880d.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Tahoma-W02-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/94e45703-fbd7-46e5-9fcd-228ae59d6266.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/ef282b80-58de-4b03-a90f-c5703d54e3b7.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Rosewood-W08-Regular";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/62a23651-230c-4724-b2c0-087544ed1a27.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/e46f32da-eb61-45e5-a1b8-49f3a5f782f8.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial-W02-Black";
+  src: url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/41280d6d-9240-4d82-9e98-3ea1a1913501.woff") format("woff"), url("https://a248.e.akamai.net/f/1778/1/5m/static.wix.com/services/third-party/fonts/user-site-fonts/fonts/bc33f504-28ac-46ae-b258-d4fd1f599c47.ttf") format("truetype"); }
+</style><style type="text/css">comments-attachment-uploader {
+  display: block; }
+  comments-attachment-uploader div.attachment-image {
+    position: relative;
+    display: inline-block;
+    height: 88px;
+    width: 88px;
+    background-size: cover;
+    background-position: 50% 50%; }
+    comments-attachment-uploader div.attachment-image .attachment-image-overlay {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.4); }
+    comments-attachment-uploader div.attachment-image .attachment-image-remove-button {
+      color: #ccc;
+      text-shadow: 2px 2px 4px #555;
+      position: absolute;
+      top: 6px;
+      right: 6px; }
+      comments-attachment-uploader div.attachment-image .attachment-image-remove-button:hover {
+        color: white; }
+    comments-attachment-uploader div.attachment-image:hover .attachment-image-overlay {
+      display: block; }
+  comments-attachment-uploader div.attachment-image-uploading {
+    opacity: 1;
+    width: 88px;
+    height: 88px;
+    border: solid white 1px;
+    background: rgba(255, 255, 255, 0.7);
+    transition: opacity 0.3s; }
+    comments-attachment-uploader div.attachment-image-uploading.upload-done {
+      opacity: 0; }
+  comments-attachment-uploader .attachment-image-progress {
+    position: absolute;
+    bottom: 5px;
+    width: 80%;
+    left: 10%;
+    height: 10px;
+    border: solid #ccc 1px;
+    background-color: white; }
+  comments-attachment-uploader .attachment-image-progress-bar {
+    background-color: #535384;
+    height: 8px;
+    width: 0;
+    transition: width 0.3s; }
+</style><style type="text/css">image-attachment {
+  display: inline-block;
+  margin-right: -10px; }
+  image-attachment .image-attachment-button {
+    display: inline-block;
+    padding: 3px;
+    margin: 2.5px 0;
+    cursor: pointer;
+    font-size: 18px;
+    width: 34px;
+    text-align: center;
+    vertical-align: middle; }
+    image-attachment .image-attachment-button:hover {
+      box-shadow: 1px 1px 4px gray; }
+</style><style type="text/css">@charset "UTF-8";
+.compose-form {
+  position: relative;
+  margin-bottom: 8px;
+  /* emoji mode stuff */ }
+  .compose-form comments-profile-image {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .compose-form .compose-box {
+    margin: 0 0 0 58px; }
+    .compose-form .compose-box .compose-options {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start; }
+      @media (max-width: 550px) {
+        .compose-form .compose-box .compose-options {
+          display: block; } }
+      .compose-form .compose-box .compose-options .author-control {
+        flex: 1;
+        font-size: 80%;
+        position: relative;
+        top: -0.3em; }
+        .compose-form .compose-box .compose-options .author-control a {
+          cursor: pointer; }
+      .compose-form .compose-box .compose-options .title {
+        display: block;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 700;
+        margin-bottom: 6px; }
+      .compose-form .compose-box .compose-options .social-options {
+        vertical-align: top;
+        width: auto;
+        max-width: 160px;
+        padding-right: 20px; }
+        @media (max-width: 550px) {
+          .compose-form .compose-box .compose-options .social-options {
+            margin: 0;
+            padding: 0;
+            max-width: inherit; } }
+        .compose-form .compose-box .compose-options .social-options i.social {
+          height: 38px;
+          width: 38px;
+          opacity: 0.9;
+          display: inline-block;
+          cursor: pointer; }
+          .compose-form .compose-box .compose-options .social-options i.social:hover {
+            opacity: 1; }
+          .compose-form .compose-box .compose-options .social-options i.social.social-facebook {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAABJUlEQVRYhe3YsYoCMRAG4JQ+hi+SZF9CkIxw+wDCNb6IVcZq4USsfACrbQQLr1Mriy0UFEXOQhCxiMU1y0Xc07gmxQz87fIxwxb5GctNFCcVobAlG52+UDgRgD8C0JSUnQAcS8AuV7oZxUmF3RqudCwB0xIhd8MBU650bKF8gex0Pn7PV9dVn5u6tbmorqtMKGz5xlg4pZtMAia+IX8jARPGX3jGwXBqluuDOZ0vJj+n8+XhczIBmLmCap89s90fzb158JsZe8WmilBPwIwzbDCcFqK8wOaLjYX4nq2cr+AMW64PFqz9NSIYwZxgzwzBCFYmbLs/vgeWT1B/JcEIRjCCEex/sCxAWOb84C0DxgHTcCuCYEuVYGuoYIu7kKpOCxViOXwFhNNcPKirV8QAAAAASUVORK5CYII=); }
+          .compose-form .compose-box .compose-options .social-options i.social.social-twitter {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAACMUlEQVRYhc2Yz2q7QBDH99jH6KP0Abqlb9BCrj320GfII+SSQ2nXXoPHgqdQ5EeghxyClB0IWhoURItlY/7M75BaaqPurhriF+Ym48f5szsOIb90NoQTyvjthQGMMv6PGjykjOOBzKeMv1DG788f+M3ZEE5IkSh7u6YMrAOCyMyi7O26AOpoQDm7eIIrQgghlwxOd7THh8oid8nglFDGbzsAk7PzB35DKIPhsUH2DYakY2n8SSehjEMHQP4akEM47o3mOAsExmKDmSBc4mAS5J4bTALsjeaFPirBTCdC04m0oPrjBYr1Fstkuwla8Il+skIvTkv9VIJBuEREVIbrjeaVUL8l1lu8e37H/nihD+bFae5LZWC2myhBZamNxQaNadgMDBHRT1Z7dVL1vCxiVZmoBHv9+Cp06sVpoVMdsLJIKYHdPb9La8aLU7TdBG03QT9ZKYNVRV4KNpgEaDqR8st01AjMT1Yo1tvcedSWZI1UCTYLROtAiLsmagSmUmN19Prx1QyMMvlJXkdlh6oWWBa5WSBaAay6hrTBdM4nmWTdqAXWHy9agYJwqQSlDEYZR2MaNkplLDalI04jMMp204MFn9qpFeutUsHXBssaQfey1oXS6krTiX7mM1V5caqVPiUwYxrWvopkI00rETOmoXKkIFyi6US1o1S7xrJpIxtzbDdB04mUzyZdMGjbaQsGXf7h7e6KoJtLlc6uoTq3uHv8Xtz92SoeM3LWHlQXl8P/ASnRLQZkzisLAAAAAElFTkSuQmCC); }
+          .compose-form .compose-box .compose-options .social-options i.social.social-google {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAACQElEQVRYhc2YvariQBSAU97H8AGcy32BTOzyBKm9D5Dy2lva2tkpLLiVlZVVGmGFtUkRckcuiSiIukIIInPFlbOFTEg0jiM7+TlwqszPx/mdHEWJiV+rvLi4+kG0158Eo98Eo4BgBNlo9Q/B6BfR0A+iItOvVV6UNHFV9D7TkJUdCF8/VWS5Knq/gSoK6FZf6xeo2lulSEtd60xFllt7qygurn4UDXOjKjIVoqFu4SDXqqGuMlPL48a4OxWCkV80SIr6iujihVmHw3QC318EzpRCmhyXc9i0W6n7j8s5AIAwnBDYfmzBmdLEpbteJwI8bdfgGTr3DOlg4WgIAADhaHjzLRj0I2tRx84PzDP0yCr3XPQ3DCI4ntWkgsUtcg/sMJ08XCMdbD+2okvTXHm9ZmHWgWCUmhg8eRps025Fm0/bNRfs3vdMLEYwgtN2zbUadWw4UwqrZiNfsFWzkahb4WgInqGDZ+gQjoZCUJmAEXwprtSxExnIJBj0hS7KBCzNfUweFdbCwB4V1lzBVs1Gwp0iLelZFY6x/diC43KeGmcAIJwEUsA8Q4fvLwIAl5dDMOgnLo83cpFaJgUs3id5mbcw64laJ8tqd8FYgItYQaTZSwNjFx2mE6GDWNZlbrFn4+a4nOcTY/HnzH5scQ9hbSuXrIxnJMvKXa8TPW0YECsjMqG4YEw37RZQx05kHnMxdWzY9TpSgeJgfhYH/6f6ymdpf3hLOCKYaahb3qFKacdQpR3clWXUeZk6XUGVcTj8D/EdjDCNXeX0AAAAAElFTkSuQmCC); }
+          .compose-form .compose-box .compose-options .social-options i.social.social-vk {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAACEUlEQVRYheWYzYrCMBCAc/QxfCyNh+0DSE973sQnEPoAiixNDz15ERYPHiwsy/YieHARKUXBgkpRKZR6yF6s1Dbpjz807A4MFBomX+Yn0w4AEZFwtwKx+goR0SAi3xARFyJCn6QbiLTPBiLvEKtNCXcrgCUQq1IdaaMngqRqHZERxKqUgCoLKK6NFnkBAABQw1q1TE+xPFfDWhWcc6p0oCvFahNApHVLB0mo1gV1RIQJYzScACJilQ3CUAsIAMHUvwum6AbtDcyLKrrxXLDxxKLmbEXN2YrOlxtqO25i093eoyyZLhzmAWzHpevt4WI3fC4EdvT8xIZHz79aI7f7TDg/OCXsrbcH5iHiNjPBzNmKaejj6ydzXRys1RkybVFKi3tMbvepH5wyT8gCW28PV2vmyw3XW3K7Xzz5eV6LnjILrDcwud5KK5RUMJ7X/OBEW51hLjBegYwn1m1VGa1OltiOyw1TGG5eCOfLze3XRZ5rgVW5We/S8qowWFqeFBXWHXczGESEThfOQ8D84JSrOxRqSbyQPgOuEBivSlmy3h5SczALrnATV3QjF5zc7nNbVhQuvHbuBgs9x+t9oUTXpsHFu8RdYNFqtR034cH4ZmkH2e29x4PFN8/6HlN0gyq6QVudYebav/sF+y/BrLIhGGoJ+sOrjcQdEQg7VBF2DCXc4O7tPLgTadR5mSbGRaTh8C8Z41UB/gY5uwAAAABJRU5ErkJggg==); }
+      .compose-form .compose-box .compose-options .user-details {
+        flex: 1 auto;
+        margin: 0; }
+        .compose-form .compose-box .compose-options .user-details input {
+          margin-top: 8px; }
+        @media (max-width: 550px) {
+          .compose-form .compose-box .compose-options .user-details {
+            margin: 12px 0; } }
+        .compose-form .compose-box .compose-options .user-details .reply-notification-label {
+          font-weight: normal; }
+      .compose-form .compose-box .compose-options > button {
+        margin: 23px 0 0 34px;
+        pointer-events: auto; }
+        @media (max-width: 550px) {
+          .compose-form .compose-box .compose-options > button {
+            margin: 0; } }
+      .compose-form .compose-box .compose-options.no-social .social-options {
+        display: none; }
+      .compose-form .compose-box .compose-options.no-social .title {
+        display: none; }
+      .compose-form .compose-box .compose-options.no-social > button {
+        margin-top: 8px; }
+      .compose-form .compose-box .compose-options.logged-in > button {
+        margin-top: 0; }
+    .compose-form .compose-box button[type=submit] {
+      position: relative; }
+    .compose-form .compose-box .wxa-form-group {
+      position: relative; }
+      .compose-form .compose-box .wxa-form-group .error-addon {
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 32px;
+        background-color: #a94442;
+        border: solid #a94442 1px;
+        border-radius: 0 4px 4px 0;
+        color: white;
+        font-size: 16px;
+        text-align: center; }
+        .compose-form .compose-box .wxa-form-group .error-addon:before {
+          position: absolute;
+          top: -4px;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          font-family: FontAwesome;
+          height: 1em;
+          margin: auto;
+          content: "\F071"; }
+      .compose-form .compose-box .wxa-form-group.has-error {
+        padding-right: 32px; }
+        .compose-form .compose-box .wxa-form-group.has-error input, .compose-form .compose-box .wxa-form-group.has-error textarea {
+          border-radius: 4px 0 0 4px;
+          border-right-width: 0; }
+        .compose-form .compose-box .wxa-form-group.has-error .error-addon {
+          display: block; }
+  .compose-form .comments-textbox {
+    padding: 0;
+    background-color: white;
+    border-radius: 4px;
+    height: auto;
+    margin-bottom: 10px; }
+    .compose-form .comments-textbox:focus {
+      outline: -webkit-focus-ring-color auto 5px; }
+  .compose-form .comments-textbox-content {
+    display: inline-block;
+    width: 100%;
+    padding: 6px 12px;
+    min-height: 54px;
+    height: auto; }
+    .compose-form .comments-textbox-content > p {
+      margin: 0;
+      /* IE 11 */ }
+    .compose-form .comments-textbox-content:focus {
+      outline: 0; }
+  .compose-form .comments-textbox-emojis {
+    padding: 0 12px;
+    background: #eee;
+    border-top: solid #ddd 1px; }
+
+.lang-he .compose-form comments-profile-image,
+.lang-ar .compose-form comments-profile-image,
+.lang-fa .compose-form comments-profile-image {
+  left: auto;
+  right: 0; }
+
+.lang-he .compose-form .compose-box,
+.lang-ar .compose-form .compose-box,
+.lang-fa .compose-form .compose-box {
+  margin: 0 58px 0 0; }
+  .lang-he .compose-form .compose-box .compose-options .social-options,
+  .lang-ar .compose-form .compose-box .compose-options .social-options,
+  .lang-fa .compose-form .compose-box .compose-options .social-options {
+    padding-right: 0;
+    padding-left: 20px; }
+  .lang-he .compose-form .compose-box .compose-options button,
+  .lang-ar .compose-form .compose-box .compose-options button,
+  .lang-fa .compose-form .compose-box .compose-options button {
+    margin-left: 0;
+    margin-right: 34px; }
+</style><style type="text/css">img.emoji {
+  margin: 1.33px;
+  /* Disables resizing on IE */
+  min-height: 28px;
+  max-height: 28px;
+  min-width: 28px;
+  max-width: 28px; }
+
+.comments-emoji-list {
+  display: inline; }
+  .comments-emoji-list .comments-emoji-list-item {
+    padding: 3px;
+    margin: 2.5px;
+    display: inline-block;
+    cursor: pointer; }
+    .comments-emoji-list .comments-emoji-list-item:hover {
+      box-shadow: 1px 1px 4px gray; }
+</style><style type="text/css">star-rating .rating-element {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  margin-right: 2px; }
+  star-rating .rating-element .sr-only {
+    display: none; }
+  star-rating .rating-element.rating-star {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAHZwAAB2cBFcD8LQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAPdEVYdFRpdGxlAGljb25fc3RhclEJ2/8AAAAYdEVYdEF1dGhvcgBKZWFuLVZpY3RvciBCYWxpbuxKEUwAAAAndEVYdERlc2NyaXB0aW9uAGplYW4udmljdG9yLmJhbGluQGdtYWlsLmNvbdja51EAAAAYdEVYdENyZWF0aW9uIFRpbWUAMjAwOC0wNS0xMviZKrYAAABJdEVYdENvcHlyaWdodABQdWJsaWMgRG9tYWluIGh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL3B1YmxpY2RvbWFpbi9Zw/7KAAACB0lEQVQokXWSz2pTQRTGvzN30tyktglJayxVY0KK3QQUFBQEadHH0I17URfWJIXaRdOAFHXRtXsfwodwUxUstQlFW5M2xHuTubkzx8Ulf6q5s5nDzHd+3zlzhpgZYcsp03vBULFtfhmmoTCAKlGBl1NfobTGfrtg1/hwkk6EkTVh3VrJCrGajRiBcphuIkCVqCCupx7R4gxELgnKJp70XtHVSVo5aoaoW8FlrbEkCM8jK1kBzYBiyDtXZP9H++2fEu1KYN/+jjo+sgYAcsrYpXhkFUk7T+nYFKVs0KULEEtpQBnAM4BimG9N8G8XaPfAHeUbx6uj532SYLC4tbBsPbgWVGIQJHY1oDiIFUNcTIASM4Mz6X85ypnGyQkxM5wy7ci7iy+sh/mh4yARngGNxVAMf68B/bO5Fd/i9eEY3Qq9FsXMhryfB7yB2IAGMC/Y/b069PFpJV7lKvDPP+hWqGbdy62J3FyQeK4aA91oQh8c1WJVLv0/BQCGcWbJCKhrRi2MuRMsGKA9eYzBpygKOwq4ZugaAAI62TYEUAwFcETeJLYAV0M3WvAPj8/AgMzMJ61kAjQVAUlxYzxn9AabNNWLTzvWQlrqg18d46g3rsG7uTjYVXgqotE1KzM/q5st3/bdaWywdw7QKVPaAj6D8KFvsJPY5tNxp9YmzdoKzwA87jNuD+7/AgcQEfWzYQDwAAAAAElFTkSuQmCC); }
+  star-rating .rating-element.rating-star-empty {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAHZwAAB2cBFcD8LQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAPdEVYdFRpdGxlAGljb25fc3RhclEJ2/8AAAAYdEVYdEF1dGhvcgBKZWFuLVZpY3RvciBCYWxpbuxKEUwAAAAndEVYdERlc2NyaXB0aW9uAGplYW4udmljdG9yLmJhbGluQGdtYWlsLmNvbdja51EAAAAYdEVYdENyZWF0aW9uIFRpbWUAMjAwOC0wNS0xMviZKrYAAABJdEVYdENvcHlyaWdodABQdWJsaWMgRG9tYWluIGh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL3B1YmxpY2RvbWFpbi9Zw/7KAAABq0lEQVQokY2SP2sUURTFf+dN3MzOKqlsJOQPbsq1EPwEFnZqFbGxjFaiBNSZRWSJO1uJBpLCr+CXEBULS00dCIpiEZTFzOxO4sy1MLuumoee7t1zz7nn3fdkZviQxXriYL/eszu+HucjilhNiUXE2eE9zfn6pnxECW1BWorIORLgxn8nKGI1gZP11N4c79pzYMGX4lcCSYM2s2XJkhO35UgnpnQrx+O9WJtTAdvhMT7wwCoAZQmbZrQQhvFRsC2xVe/as8lJeaLLGC2JpUrMq6KG2NJezCPBMEqt7dvHUcgTdQ1C10htVSLIEq0j6Z9KSVmidYmgkdqqRv8gj3Ufx1xU4/rofn+hI5fv85SK91HP1g738xNRz9Zk7OZDVryxh6zI2B2JfzMAqKCP+OyPz6cK+pMl98eh5QLejgvLCuho/NTOeAec8RqYsRA+ZAdJg1hX8yav8oLXWVvXWFYQ9mxHxvzRBh3VTBzkd7mYxbwwaOYlF6JpzsuYzU/zchDriokDbmp6JBvH+1ZwIoBFAs59r7g007Ov0SEXQfqlo42w4BbGqX6DaAYKgB9JC5ozF1f3eAAAAABJRU5ErkJggg==); }
+</style><style type="text/css">comments-profile-image {
+  display: inline-block; }
+
+.profile-image-editor {
+  position: relative;
+  min-width: 50px;
+  text-align: center;
+  line-height: 50px; }
+  .profile-image-editor img {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 3px; }
+  .profile-image-editor .change-profile-image-icon {
+    opacity: 0;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    color: black;
+    padding: 4px;
+    transition: opacity 0.2s; }
+  .profile-image-editor:hover .change-profile-image-icon {
+    opacity: 1; }
+  .profile-image-editor.profile-image-changable {
+    cursor: pointer; }
+</style><style wix-style="">.Title{ font:normal normal normal 18px/1.1em "times new roman",times,serif; } .Menu{ font:normal normal bold 12px/1.1em arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif; } .Page-title{ font:normal normal normal 24px/1.4em "times new roman",times,serif; } .Heading-XL{ font:normal normal normal 60px/1.1em "times new roman",times,serif; } .Heading-L{ font:normal normal normal 44px/1.3em "times new roman",times,serif; } .Heading-M{ font:normal normal normal 36px/1.2em "times new roman",times,serif; } .Heading-S{ font:normal normal normal 24px/1.3em "times new roman",times,serif; } .Body-L{ font:normal normal bold 16px/1.3em "times new roman",times,serif; } .Body-M{ font:normal normal normal 13px/1.3em arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif; } .Body-S{ font:normal normal normal 12px/1.3em arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif; } .Body-XS{ font:normal normal normal 10px/1.3em arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif; } }</style><link type="text/css" rel="stylesheet" href="./latin(1).css"></head>
+	<body ng-app="wixComments.widget" ng-controller="TopLevelCtrl as $ctrl" ng-class="appMode" ng-strict-di="" class="ng-scope wix-app">
+		<div class="page-wrapper lang-fr" ng-style="$ctrl.pageWrapperStyle()" ng-class="&#39;lang-&#39; + uiLanguage" style="background: none; border: 3px solid rgb(237, 237, 237); border-radius: 8px; color: rgb(221, 107, 27);">
+			<!-- ngView: --><div class="container ng-scope" ng-view=""><comments-widget mobile="false" class="ng-scope ng-isolate-scope"><!-- ngIf: !$ctrl.modelReady -->
+
+<div class="comments-app" ng-show="$ctrl.modelReady &amp;&amp; !$ctrl.showSettingsMessage" ng-class="{mobile: $ctrl.mobile}" style="">
+	<!-- ngIf: $ctrl.settings.widget.showTitle != 'no' --><h3 ng-if="$ctrl.settings.widget.showTitle != &#39;no&#39;" class="ng-scope">
+		<span ng-show="$ctrl.headMessage" class="ng-binding ng-hide"></span>
+		<span ng-show="!$ctrl.headMessage" class="ng-binding">207 commentaires</span>
+	</h3><!-- end ngIf: $ctrl.settings.widget.showTitle != 'no' -->
+
+	<!-- ngIf: $ctrl.canAddNewComments() --><comments-compose ng-if="$ctrl.canAddNewComments()" comments-user="$ctrl.user" comments-add-new="$ctrl.addNewComment(newComment)" class="ng-scope ng-isolate-scope"><form name="$ctrl.commentForm" class="compose-form clearfix ng-pristine ng-invalid ng-invalid-required ng-valid-blacklist ng-valid-email" novalidate="" ng-submit="$ctrl.submitComment($ctrl.commentForm.$valid);">
+
+	<comments-profile-image readonly="!$ctrl.canChangeProfilePhoto()" default-image="$ctrl.user | wxaUserPhoto: $ctrl.newUser.email" component="&#39;widget&#39;" on-image-selected="$ctrl.newUser.profileImage = imageUrl;" class="ng-isolate-scope"><div class="profile-image-editor profile-image-changable" ng-click="$ctrl.changeProfilePhoto();" ng-class="{&#39;profile-image-changable&#39;: !$ctrl.readonly}">
+	<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Profile Image" src="./saved_resource">
+	<!-- ngIf: !$ctrl.readonly --><i class="fa fa-pencil change-profile-image-icon ng-scope" ng-if="!$ctrl.readonly"></i><!-- end ngIf: !$ctrl.readonly -->
+</div>
+</comments-profile-image>
+
+	<div class="compose-box">
+		<div class="wxa-form-group" ng-class="{&#39;has-error&#39;: $ctrl.commentForm.comment.$invalid &amp;&amp; $ctrl.commentForm.$submitted}">
+
+			<div class="form-control comments-textbox">
+				<div class="comments-textbox-content ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-blacklist placeholder-active" ng-focus="$ctrl.showComposeButtons=true" placeholder="Laissez un message..." contenteditable="true" ng-model="$ctrl.newComment.text" name="comment" ng-disabled="$ctrl.submitInProgress" comments-blacklist="$ctrl.globalSettings.wordBlacklist" required="">Laissez un message...</div>
+				<div class="comments-textbox-emojis ng-hide" ng-show="$ctrl.showComposeButtons">
+					<!-- ngIf: $ctrl.globalSettings.enableImageAttachments --><image-attachment on-select="$ctrl.attachment = file" ng-if="$ctrl.globalSettings.enableImageAttachments" class="ng-scope ng-isolate-scope"><a href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948" ng-click="$ctrl.selectImage()" class="image-attachment-button" title="Attach Image">
+	<i class="fa fa-image"></i>
+</a>
+<img style="max-width: 300px;">
+</image-attachment><!-- end ngIf: $ctrl.globalSettings.enableImageAttachments -->
+					<!-- ngIf: $ctrl.globalSettings.enableEmoji -->
+				</div>
+			</div>
+
+			<!-- ngIf: !$ctrl.commentForm.comment.$error.blacklist --><span class="error-addon ng-scope" ng-if="!$ctrl.commentForm.comment.$error.blacklist" title="Veuillez saisir votre commentaire"></span><!-- end ngIf: !$ctrl.commentForm.comment.$error.blacklist -->
+			<!-- ngIf: $ctrl.commentForm.comment.$error.blacklist -->
+			<!-- ngIf: $ctrl.commentForm.comment.$error.blacklist -->
+		</div>
+
+		<comments-attachment-uploader file="$ctrl.attachment" on-state-change="$ctrl.attachmentChanged(promise);" class="ng-isolate-scope"><!-- ngIf: $ctrl.url -->
+</comments-attachment-uploader>
+
+		<!-- ngIf: $ctrl.globalSettings.ratingText -->
+		<!-- ngIf: $ctrl.globalSettings.enableRating -->
+
+		<div class="compose-options ng-hide no-social" ng-show="$ctrl.showComposeButtons" ng-class="{&#39;logged-in&#39;: $ctrl.loggedIn(), &#39;no-social&#39;: $ctrl.globalSettings.hideSocial}" style="">
+			<!-- ngIf: !$ctrl.loggedIn() --><div class="social-options ng-scope" ng-if="!$ctrl.loggedIn()">
+				<span class="title ng-binding">Se connecter avec</span>
+				<i class="social social-facebook" ng-click="$ctrl.loginFacebook();" title="Facebook"></i>
+				<i class="social social-twitter" ng-click="$ctrl.loginTwitter();" title="Twitter"></i>
+				<i class="social social-google" ng-click="$ctrl.loginGoogle();" title="Google"></i>
+				<i class="social social-vk ng-hide" ng-click="$ctrl.loginVK();" title="VK" ng-show="$ctrl.settings.enableVK"></i>
+			</div><!-- end ngIf: !$ctrl.loggedIn() -->
+			<!-- ngIf: !$ctrl.loggedIn() --><div class="user-details ng-scope" ng-if="!$ctrl.loggedIn()">
+				<span class="title ng-binding">Ou saisissez vos coordonnées</span>
+				<div class="wxa-form-group" ng-class="{&#39;has-error&#39;: $ctrl.commentForm.username.$invalid &amp;&amp; $ctrl.commentForm.$submitted}">
+					<input type="text" name="username" ng-model="$ctrl.newUser.name" placeholder="Votre nom" ng-required="!$ctrl.globalSettings.optionalNameBox" class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" required="required">
+					<span class="error-addon" title="Veuillez saisir votre nom">
+					</span>
+				</div>
+				<!-- ngIf: !$ctrl.globalSettings.disableEmailBox --><div class="wxa-form-group ng-scope" ng-if="!$ctrl.globalSettings.disableEmailBox" ng-class="{&#39;has-error&#39;: $ctrl.commentForm.email.$invalid &amp;&amp; $ctrl.commentForm.$submitted}">
+					<input type="email" name="email" ng-model="$ctrl.newUser.email" placeholder="Votre e-mail (facultatif)" ng-required="!$ctrl.globalSettings.optionalEmailBox" class="form-control ng-pristine ng-untouched ng-empty ng-valid-email ng-valid ng-valid-required" style="">
+					<span class="error-addon" title="Veuillez saisir une adresse e-mail valide">
+					</span>
+					<!-- ngIf: $ctrl.globalSettings.enableReplyNotification && $ctrl.newUser.email -->
+				</div><!-- end ngIf: !$ctrl.globalSettings.disableEmailBox -->
+				<!-- ngIf: $ctrl.globalSettings.enableWebsite -->
+				<!-- ngIf: $ctrl.globalSettings.extraCommentFields -->
+			</div><!-- end ngIf: !$ctrl.loggedIn() -->
+			<!-- ngIf: $ctrl.loggedIn() -->
+			<button class="btn btn-primary disabled" type="submit" ng-class="{disabled: $ctrl.commentForm.$invalid || $ctrl.submitInProgress}">
+				<span translate="" ng-style="{visibility: $ctrl.submitInProgress?&#39;hidden&#39;:&#39;visible&#39;}" class="ng-scope" style="visibility: visible;">Commenter</span>
+				<us-spinner ng-show="$ctrl.submitInProgress" class="ng-scope ng-hide"><div class="spinner" role="progressbar" style="position: absolute; width: 0px; z-index: 2000000000; left: 50%; top: 50%;"><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-0-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(0deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-1-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(22deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-2-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(45deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-3-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(67deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-4-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(90deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-5-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(112deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-6-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(135deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-7-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(157deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-8-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(180deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-9-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(202deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-10-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(225deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-11-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(247deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-12-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(270deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-13-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(292deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-14-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(315deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-15-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(337deg) translate(6px, 0px); border-radius: 1px;"></div></div></div></us-spinner>
+			</button>
+		</div>
+	</div>
+
+</form>
+</comments-compose><!-- end ngIf: $ctrl.canAddNewComments() -->
+
+	<div ng-show="$ctrl.shouldShowCommentsLimitedMessage()" class="upgrade-notice ng-hide">
+		<span class="label label-danger ng-scope" translate="">Important</span>
+		<span translate="" class="ng-scope">Vous avez atteint le nombre maximum de commentaires pour la version gratuite. Veuillez booster votre appli Comments au Premium pour profiter d'un nombre illimité de commentaires.</span>
+	</div>
+
+	<!-- ngIf: !$ctrl.settings.comment.textColorInherit -->
+
+	<!-- ngIf: $ctrl.globalSettings.hideTimestamps -->
+
+	<!-- ngIf: $ctrl.globalSettings.hideAvatars -->
+
+	<!-- ngIf: !$ctrl.settings.comment.transparentBackground -->
+
+	<!-- ngIf: $ctrl.settings.widget.customStyleSheet -->
+
+	<!-- ngIf: $ctrl.globalSettings.customStyleSheet -->
+
+	<!-- ngIf: $ctrl.settings.widget.buttonColor --><style type="text/css" wxa-style-sheet="" ng-if="$ctrl.settings.widget.buttonColor" class="ng-scope">
+		.btn.btn-primary {
+			background-color: #FFFFFF;
+			background-image: -moz-linear-gradient(top, #FFFFFF, #e6e6e6);
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#e6e6e6));
+			background-image: -webkit-linear-gradient(top, #FFFFFF, #e6e6e6);
+			background-image: -o-linear-gradient(top, #FFFFFF, #e6e6e6);
+			background-image: linear-gradient(to bottom, #FFFFFF, #e6e6e6);
+			color: #000000;
+			border-color: #e6e6e6;
+		}
+
+		.btn.btn-primary:hover,
+		.btn.btn-primary:active,
+		.btn.btn-primary:focus,
+		.btn.btn-primary.active,
+		.btn.btn-primary.disabled,
+		.btn.btn-primary[disabled] {
+			color: #000000;
+			background-color: #e6e6e6;
+			border-color: #e6e6e6;
+		}
+	</style><!-- end ngIf: $ctrl.settings.widget.buttonColor -->
+
+	<style type="text/css" wxa-style-sheet="">
+		h3 {
+			font:normal normal normal 36px/1.2em "times new roman",times,serif;;
+			color: inherit;
+		}
+
+		body .comments-app,
+		body .comments-app input,
+		body .comments-app textarea,
+		body .comments-app .comments-textbox-content {
+			font:normal normal normal 13px/1.3em arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif;
+		}
+	</style>
+
+	<ul class="comment-list" ng-class="{&#39;has-background&#39;: !$ctrl.settings.comment.transparentBackground}">
+		<!-- ngIf: $ctrl.showApprovalMessage -->
+		<!-- ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/0e8ba33e8c933229f21fa98f034aa226?size=50&amp;r=pg&amp;d=mm" alt="Coulonge jean claude" src="./0e8ba33e8c933229f21fa98f034aa226">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Bonjour a tous.. nous étions très heureux &nbsp;nous les VINYLS pour notre première participation au festival de Chartres un public très nombreux plus de 1500 personnes et très attentif pour une belle soirée sixties.Merci aux organisateurs pour l’accueil &nbsp;et merci aussi pour le son et lumière. Sur le site des Vinyls ( Blog ) <a href="http://www.lesvinyls.info/" target="_blank">www.lesvinyls.info</a> un très belle article sur cette soirée.Encore &nbsp;merci et vive la musique. &nbsp;Amicalement &nbsp;jean claude Coulonge batteur leader des Vinyls</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Coulonge jean claude</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Sep 6, 2016 9:29:58 AM">il y a 8 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Gérard - Les Vinyls" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Merci pour votre formidable accueil, sympa, efficace, malgré la difficulté d'organiser 50 spectacles de suite. Merci aussi aux ingé sons et lumière pour leur super boulot.<br>
+Au plaisir de vous retrouver.<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Gérard - Les Vinyls</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Sep 2, 2016 1:49:44 PM">il y a 11 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/a7dafb3b9c32ca067aa0c47eb6d14a03?size=50&amp;r=pg&amp;d=mm" alt="Marie" src="./a7dafb3b9c32ca067aa0c47eb6d14a03">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Bonsoir!<br>
+<br>
+Chapeau! Bravo votre programmation! Encore une belle saison!<br>
+Envisagez vous de programmer des animations pour les jeunes (20-30 ans), une fois par semaine ça serait sympa!<br>
+Beaucoup de groupes existent dans la région centre!<br>
+<br>
+Un commentaire pour : Les ingénieurs du son qui œuvrent tous les soirs .Ils ne semblent pas faire l'unanimité des spécialistes qui ont assistés aux soirées quant au résultat obtenu!!!!<br>
+De plus, se rouler des joints et les fumer pendant votre prestation, messieurs les ingénieurs!!!!!...... accompagné de bières!!!!! tous les soirs!!!!....quelle image donnée????<br>
+<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Marie</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 28, 2016 9:00:15 PM">il y a 16 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Thierry" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Bravo et merci à toute l'équipe de bénévoles de Chartrestivales pour cette super programmation 2016.<br>
+Vivement Chartrestivales 2017 !<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Thierry</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 28, 2016 12:40:17 PM">il y a 16 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					1
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/7c5f67f2c08389de2dfffa06aed07cf2?size=50&amp;r=pg&amp;d=mm" alt="Gwenaelle" src="./7c5f67f2c08389de2dfffa06aed07cf2">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">bonjour<br>
+Bravo à toute l'équipe des ChartrEstivales pour toutes ses magnifiques soirées de concert .Et terminé par Les Vinyls c'était super.Une super ambiance et quel talent . encore bravo et merci.<br>
+Mille fois merci<br>
+<br>
+<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Gwenaelle</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 28, 2016 12:33:09 PM">il y a 16 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					1
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Patrick Gabriel" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Chapeau Mesdames et Messieurs les bénévoles de Chartrestivales pour tout ce que vous nous donner chaque soir pendant deux mois. Vous pouvez être fiers de vos efforts, contraintes, et ce dans l'humilité et le sourire., le stress et l assurance.<br>
+MERCI de tout le public fidèle ou de passage. MERCI d'être ce que vous êtes, des exemples....A l'an prochain</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Patrick Gabriel</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 28, 2016 1:51:12 AM">il y a 17 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					1
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/c738788fd1045aaa90dc0cc9dfa65816?size=50&amp;r=pg&amp;d=mm" alt="Doraymi" src="./c738788fd1045aaa90dc0cc9dfa65816">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Très bonne interprétation des chansons de Mr Eddy<br>
+Mais la sono était vraiment trop forte, jusqu’à la<br>
+saturation et la distorsion, on ne comprenait plus le chanteur.<br>
+Dommage. &nbsp;</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Doraymi</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 27, 2016 4:51:58 PM">il y a 17 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread --><li ng-repeat="(replyKey, reply) in comment.thread" class="ng-scope">
+					<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+					<div class="profile-image">
+						<a ng-href="" target="blank">
+							<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Michel" src="./saved_resource">
+						</a>
+					</div>
+					<div class="content ng-binding" ng-bind-html="reply.text|escape|nl2br|emojis|links">Eddy LIVE avait leur ingenieur du son....aux commandes du son<br>
+</div>
+					<!-- ngIf: ::reply.attachment -->
+					<div>
+						<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Michel</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+						<span class="timestamp" am-time-ago="reply.time" title="Aug 27, 2016 6:06:26 PM">il y a 17 jours</span>
+						<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+					</div>
+				</li><!-- end ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Fasila28" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Un merci tout particulier a vous Michel &amp; Bruno d'avoir expliqué notre absence cette année a toutes vos soirées Marc est toujours avec nous, fatigué, mais nous espérons beaucoup être spectateurs en 2017...( et avec humour pour Bruno accordzéam seront au prochain programme ??)Félicitations a tous, nous avons eu des échos et même des contacts.</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Fasila28</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 26, 2016 4:55:42 PM">il y a 18 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread --><li ng-repeat="(replyKey, reply) in comment.thread" class="ng-scope">
+					<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+					<div class="profile-image">
+						<a ng-href="" target="blank">
+							<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Bruno" src="./saved_resource">
+						</a>
+					</div>
+					<div class="content ng-binding" ng-bind-html="reply.text|escape|nl2br|emojis|links">Merci pour ce message. Nous pensons à vous et à Marc. A bientôt pour de nouvelles estivales&nbsp;</div>
+					<!-- ngIf: ::reply.attachment -->
+					<div>
+						<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Bruno</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+						<span class="timestamp" am-time-ago="reply.time" title="Aug 27, 2016 1:04:59 PM">il y a 17 jours</span>
+						<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+					</div>
+				</li><!-- end ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Laëtitia R." src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Bonsoir,<br>
+<br>
+Merci pour ces soirées du 22 et 23 août, alliant la convivialité au dépaysement du jazz ! C'est toujours une découverte qui se profile dans les soirées de cette programmation 2016. Un grand bravo pour l'équipe de Chartr'Estivales pour leur motivation dans cette fabuleuse aventure de préparation et d'organisation pour nous régaler l'ouïe, et un grand bravo aux artistes de cette année 2016 pour nous avoir fait voyager cet été.<br>
+<br>
+Continuez ainsi !<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Laëtitia R.</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 23, 2016 11:11:58 PM">il y a 21 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/433a93ce6e6d7884f0db1af3651023a3?size=50&amp;r=pg&amp;d=mm" alt="MARIE-FRANCE" src="./433a93ce6e6d7884f0db1af3651023a3">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Merci pour la soirée du samedi 13 août, hé oui je suis en retard ! avec le concert LOVES BEATLES. Judith, ou Jude, mon amie anglaise, avec un faux micro, a chanté toutes les chansons ! Elle n'a pas voulu monté sur la scène, dommage !&nbsp;Nous espérons les revoir l'année prochaine. Et merci pour toutes ces soirées. Marie-France</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">MARIE-FRANCE</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 23, 2016 10:04:52 AM">il y a 22 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Patrick Gabriel" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">A mon ami intime Hugues Aufray, parolier de la version française&nbsp;'des portes du pénitencier' toutes mes excuses&nbsp;pour ma version un peu coquine de cette chanson. 'j'apporte&nbsp;mon pénis entier' qui n'est que de l'humour, certes un brin paillard, pour la génération in-vitraux de la cathédrale de&nbsp;Chartres.&nbsp;Rocco Sifredi aurait pu faire la même mais&nbsp;en un peu plus longue et la bande à fernande&nbsp;aurait terminé&nbsp;leur concert avec&nbsp;" a la queue leu leu"&nbsp;On aurait fini par en voir le bout...</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Patrick Gabriel</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 23, 2016 12:50:37 AM">il y a 22 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/1ed834237142f4dbb540b968310b1aef?size=50&amp;r=pg&amp;d=mm" alt="&quot;Timide&quot;" src="./1ed834237142f4dbb540b968310b1aef">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Il faut aussi remercier LA BANDE A FERNANDE, qui permet à tous les artistes de passage de pouvoir compter sur des choeurs libérés et audacieux.<br>
+A ce soir,<br>
+<a href="http://www.paroles-musique.com/paroles-Blanche_Neige_Et_Les_Sept_Nains-La_Tyrolienne_Des_Nains-lyrics,p40294" target="_blank">http://www.paroles-musique.com/paroles-Blanche_Neige_Et_Les_Sept_Nains-La_Tyrolienne_Des_Nains-lyrics,p40294</a></div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">"Timide"</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 22, 2016 4:48:04 PM">il y a 22 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread --><li ng-repeat="(replyKey, reply) in comment.thread" class="ng-scope">
+					<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+					<div class="profile-image">
+						<a ng-href="" target="blank">
+							<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Bruno Doret" src="./saved_resource">
+						</a>
+					</div>
+					<div class="content ng-binding" ng-bind-html="reply.text|escape|nl2br|emojis|links">Ce soir encore les agents seront nombreux à la recherche de la perle rare, du chanteur qui risque de faire une grande carrière ... à Berchères les Pierres.</div>
+					<!-- ngIf: ::reply.attachment -->
+					<div>
+						<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Bruno Doret</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+						<span class="timestamp" am-time-ago="reply.time" title="Aug 22, 2016 6:00:42 PM">il y a 22 jours</span>
+						<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+					</div>
+				</li><!-- end ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/0c1528049499daf21aedc001ddb2d2a4?size=50&amp;r=pg&amp;d=mm" alt="THE GREEN DUCK" src="./0c1528049499daf21aedc001ddb2d2a4">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">merci à tous de la part de Green Duck nous avons passé une soirée magique avec vous.<br>
+Retrouvez nous sur le facebook du <a target="_blank">groupe.https://www.facebook.com/thegreenduckband/?ref=bookmarks</a><br>
+<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">THE GREEN DUCK</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 20, 2016 7:32:27 PM">il y a 24 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					1
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/1ed834237142f4dbb540b968310b1aef?size=50&amp;r=pg&amp;d=mm" alt="&quot;Dormeur&quot;" src="./1ed834237142f4dbb540b968310b1aef">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Hey Ho,<br>
+<br>
+Si seulement, ma pioche était aussi magique que le violon, le banjo ou l'armonica de The Green Duck...<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">"Dormeur"</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 20, 2016 6:14:17 PM">il y a 24 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/714136b5d07d685935adfaf2e4a58e40?size=50&amp;r=pg&amp;d=mm" alt="corinne vassort et jerome" src="./714136b5d07d685935adfaf2e4a58e40">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">bonjour et bravo je vient tous les ans et régulièrement aux soirées estival proposées. hier c était le top des top groupe super et musique entrainante pour faire bouger les chartrains comme hier ils fallait qu ils soient bon génial&nbsp; je vais surveiller le programme de l année prochaine qu ils reviennent merci a tout les bénévoles de chatrestivales a ce soir&nbsp; Corinne dit coco ps on vous aidera a plier les bancs les foncée avec las foncée et les clairs ensemble mdr encore bravo <br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">corinne vassort et jerome</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 20, 2016 2:17:13 PM">il y a 24 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Anne gaelle" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Merci a lequipe pour laccueil &nbsp;bravo tres bon chois de concert&nbsp;</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Anne gaelle</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 20, 2016 11:25:54 AM">il y a 25 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="céline" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Merci pour cette belle programmation. Dommage que l'on ait droit à la mollesse et au "non-humour" du speech de "Michel" systématiquement<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">céline</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 20, 2016 9:51:28 AM">il y a 25 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread --><li ng-repeat="(replyKey, reply) in comment.thread" class="ng-scope">
+					<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+					<div class="profile-image">
+						<a ng-href="" target="blank">
+							<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="michel cent humours...........désolé" src="./saved_resource">
+						</a>
+					</div>
+					<div class="content ng-binding" ng-bind-html="reply.text|escape|nl2br|emojis|links">LES GOÛTS ET LES COULEURS.......</div>
+					<!-- ngIf: ::reply.attachment --><img ng-src="https://firebasestorage.googleapis.com/v0/b/comments-plugin.appspot.com/o/attach%2F13618bde-2df6-7101-989d-d55e070d1e2f%2F267b07aeb62de4c2da62f45a1e655a24.jpg?alt=media" ng-if="::reply.attachment" class="comments-attachment-image ng-scope" src="./attach%2F13618bde-2df6-7101-989d-d55e070d1e2f%2F267b07aeb62de4c2da62f45a1e655a24.jpg"><!-- end ngIf: ::reply.attachment -->
+					<div>
+						<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">michel cent humours...........désolé</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+						<span class="timestamp" am-time-ago="reply.time" title="Aug 20, 2016 11:22:38 AM">il y a 25 jours</span>
+						<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+					</div>
+				</li><!-- end ngRepeat: (replyKey, reply) in comment.thread --><li ng-repeat="(replyKey, reply) in comment.thread" class="ng-scope">
+					<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+					<div class="profile-image">
+						<a ng-href="" target="blank">
+							<img ng-src="https://www.gravatar.com/avatar/648ab0999bffeb72f960d440b055f44e?size=50&amp;r=pg&amp;d=mm" alt="Marie-Hélène" src="./648ab0999bffeb72f960d440b055f44e">
+						</a>
+					</div>
+					<div class="content ng-binding" ng-bind-html="reply.text|escape|nl2br|emojis|links">Des spectacles gratuits tous les soirs que nous mettons des mois à préparer supportent bien ce petit sacrifice !</div>
+					<!-- ngIf: ::reply.attachment -->
+					<div>
+						<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Marie-Hélène</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+						<span class="timestamp" am-time-ago="reply.time" title="Aug 20, 2016 6:47:44 PM">il y a 24 jours</span>
+						<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+					</div>
+				</li><!-- end ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Corbillon Marilyn" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Un grand merci encore pour cette soirée avec the green duck ! Superbe ambiance ! !! Un grand merci aux organisateurs aussi !! À lundi&nbsp;</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Corbillon Marilyn</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 20, 2016 1:11:49 AM">il y a 25 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/1ed834237142f4dbb540b968310b1aef?size=50&amp;r=pg&amp;d=mm" alt="&quot;Atchoum&quot;" src="./1ed834237142f4dbb540b968310b1aef">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Merci pour votre programmation et l'attention que vous portez à notre confort.<br>
+Ce soir, on pose les pébrocs pour danser la Scottish et la Ridée à l'abri, place Billard ...<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">"Atchoum"</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 19, 2016 2:31:17 PM">il y a 25 jours</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Patrick Gabriel" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Albert MESLAY...IL LES A MIS</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Patrick Gabriel</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 17, 2016 11:32:52 PM">il y a un mois</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Patrick Gabriel" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Albert MESLAY...il les a mis</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Patrick Gabriel</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 17, 2016 11:32:17 PM">il y a un mois</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Gérard" src="./saved_resource">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Super concert Beatles samedi...Probléme.....Des amis aux 2 ou trois techniciens sont restés debouts derrière les pupitres à discuter et à&nbsp;fumer pendant presque tout &nbsp;le concert.....Résutats&nbsp;...On profitait plus de leur silhouette&nbsp;que de la scéne...A éviter...<br>
+Bravo pour la programmation variée et de qualité de ce festival<br>
+&nbsp;</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Gérard</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 15, 2016 5:14:43 PM">il y a un mois</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/5a4169f5b704c868aac0f97c91219142?size=50&amp;r=pg&amp;d=mm" alt="Lamberdière" src="./5a4169f5b704c868aac0f97c91219142">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Concert Beatles hier soir. Comme toujours, la programmation est excellente. Nous sommes retombés quelques années en arrière avec un énorme plaisir. J'ai 63 ans et musicien moi-même, je me suis régalé et rentré chez moi avec une extinction de voix. Visuellement, on s'y serait cru. Le bassiste gaucher, le changement de costume avec le changement d'époque. Tout y était. Mes potes parisiens déplacés pour l'occasion étaient comme moi ravis.<br>
+Un petit bémol peut-être, la sono manquait cruellement de volume (et pourtant je ne suis pas fan des "casse-oreille") et hier soir, je n'avais pas besoin de mes bouchons d'oreille, loin de là ! La dynamique de la musique des 60's et surtout des Beatles réclamait un peu plus de son, quitte à réveiller les Saints ravis surement de voir que, comme Jésus, les Beatles sont encore connus ! (ref. John Lennon).<br>
+Le public, très endormi, un peu comme à l'habitude, n'était pas là pour réveiller l'ambiance par son énergie. Les bancs sont sans doute trop confortables. Dommage, je pense que les Musiciens auraient donné beaucoup plus s'ils avaient reçu un peu plus.<br>
+Les Littles de l'an passé étaient franchement, au niveau de l'interprétation, aussi bons. Mais pour la mise en scène et le visuel, par contre, les "Love" sont un cran au-dessus.<br>
+Il existe encore meilleur : Écoutez les "Fab Four". Là on s'y croit vraiment.<br>
+Bravo aux organisateurs et aux programmateurs de Chartres Estivales. Vous réveillez notre ville avec des concerts de qualité. Continuez à nous faire plaisir !<br>
+<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Lamberdière</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 14, 2016 7:49:36 PM">il y a un mois</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					2
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread --><li ng-repeat="(replyKey, reply) in comment.thread" class="ng-scope">
+					<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+					<div class="profile-image">
+						<a ng-href="" target="blank">
+							<img ng-src="https://www.gravatar.com/avatar/?size=50&amp;d=mm" alt="Michel" src="./saved_resource">
+						</a>
+					</div>
+					<div class="content ng-binding" ng-bind-html="reply.text|escape|nl2br|emojis|links">MERCI</div>
+					<!-- ngIf: ::reply.attachment -->
+					<div>
+						<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Michel</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+						<span class="timestamp" am-time-ago="reply.time" title="Aug 15, 2016 9:40:30 AM">il y a un mois</span>
+						<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+					</div>
+				</li><!-- end ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id --><li ng-repeat="comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id" class="comment-box ng-scope">
+			<div class="profile-image">
+				<a ng-href="" target="blank">
+					<img ng-src="https://www.gravatar.com/avatar/c738788fd1045aaa90dc0cc9dfa65816?size=50&amp;r=pg&amp;d=mm" alt="Doraymi" src="./c738788fd1045aaa90dc0cc9dfa65816">
+				</a>
+			</div>
+			<!-- ngIf: $ctrl.globalSettings.authorFirst -->
+			<div class="content ng-binding" ng-bind-html="comment.text|escape|nl2br|emojis|links">Bravo pour le concert Beatles d'hier soir, meilleur groupe du genre connu.<br>
+Merci a Chartres Estivales !<br>
+</div>
+			<!-- ngIf: comment.rating -->
+			<!-- ngIf: ::comment.attachment -->
+			<div>
+				<!-- ngIf: !$ctrl.globalSettings.authorFirst --><span class="author ng-binding ng-scope" ng-if="!$ctrl.globalSettings.authorFirst">Doraymi</span><!-- end ngIf: !$ctrl.globalSettings.authorFirst -->
+				<!-- ngIf: ::$ctrl.globalSettings.enableWebsite && comment.website -->
+				<span class="timestamp" am-time-ago="comment.time" title="Aug 14, 2016 8:55:35 AM">il y a un mois</span>
+				<!-- ngIf: $ctrl.canReply --><span class="action-link ng-scope" ng-if="$ctrl.canReply">
+					<a ng-click="$ctrl.replyClick(comment)" data-action="reply" translate="" class="ng-scope">Répondre</a>
+				</span><!-- end ngIf: $ctrl.canReply -->
+				<!-- ngIf: $ctrl.globalSettings.showSocialSharing -->
+				<!-- ngIf: $ctrl.globalSettings.enableVotes --><span class="action-link ng-binding ng-scope" ng-if="$ctrl.globalSettings.enableVotes">
+					0
+					<a ng-click="$ctrl.upvote(comment)" class="comments-comment-upvote-link" href="https://app.commentsplugin.com/widget-wix?cacheKiller=1473802000022&amp;compId=TPWdgt1-s83&amp;deviceType=desktop&amp;instance=1buNjDszAWbWdRyE6dqKXDW_1SbwPHXXE-cc7aiQAUY.eyJpbnN0YW5jZUlkIjoiMTM2MThiZGUtMmRmNi03MTAxLTk4OWQtZDU1ZTA3MGQxZTJmIiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjoiUHJlbWl1bTEiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjFlYmExMzYwLWNhYzMtNDhjMy04NDZmLWIyMmFkZWY5NWM4YSIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&amp;locale=en&amp;viewMode=site&amp;width=948"><comments-heart-button state="$ctrl.voteStatus(comment)" class="ng-isolate-scope"><span class="comments-heart-button">
+	<i class="fa fa-heart-o"></i>
+	<!-- ngIf: $ctrl.state -->
+</span>
+</comments-heart-button></a>
+				</span><!-- end ngIf: $ctrl.globalSettings.enableVotes -->
+			</div>
+
+			<!-- ngIf: comment.showReply -->
+			<ul class="reply-list">
+				<!-- ngRepeat: (replyKey, reply) in comment.thread -->
+			</ul>
+		</li><!-- end ngRepeat: comment in $ctrl.comments|orderBy:$ctrl.commentsOrder track by comment.$id -->
+		<li class="load-more" ng-show="$ctrl.effectiveCommentCount() &gt; $ctrl.commentsToShow || ($ctrl.mobile &amp;&amp; $ctrl.commentsToShow &gt; 2)" style="">
+			<!-- ngIf: $ctrl.effectiveCommentCount() > $ctrl.commentsToShow --><span class="load-link ng-binding ng-scope" ng-click="$ctrl.loadMoreComments()" ng-if="$ctrl.effectiveCommentCount() &gt; $ctrl.commentsToShow" ng-hide="$ctrl.loadingMoreComments">
+				Voir plus de commentaires...
+			</span><!-- end ngIf: $ctrl.effectiveCommentCount() > $ctrl.commentsToShow -->
+			<!-- ngIf: $ctrl.mobile && $ctrl.commentsToShow > $ctrl.commentsPerPage -->
+			<span class="load-spinner ng-scope ng-hide" ng-show="$ctrl.loadingMoreComments" us-spinner="{lines:16, length:6, width:2, radius:6, corners:1.0}"><div class="spinner" role="progressbar" style="position: absolute; width: 0px; z-index: 2000000000; left: 50%; top: 50%;"><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-0-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(0deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-1-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(22deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-2-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(45deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-3-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(67deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-4-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(90deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-5-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(112deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-6-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(135deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-7-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(157deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-8-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(180deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-9-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(202deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-10-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(225deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-11-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(247deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-12-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(270deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-13-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(292deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-14-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(315deg) translate(6px, 0px); border-radius: 1px;"></div></div><div style="position: absolute; top: -1px; opacity: 0.25; animation: opacity-100-25-15-16 1s linear infinite;"><div style="position: absolute; width: 8px; height: 2px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(337deg) translate(6px, 0px); border-radius: 1px;"></div></div></div></span>
+		</li>
+	</ul>
+</div>
+
+<!-- ngIf: $ctrl.modelReady && $ctrl.showSettingsMessage -->
+</comments-widget></div>
+		</div>
+
+		<script src="./af12c31d.scripts.js"></script>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', ((location.hostname == '127.0.0.1') ? 'UA-41389124-3' : 'UA-41389124-2'), 'auto');
+		</script>
+
+		<!-- start Mixpanel -->
+		<script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+		for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+		mixpanel.init("911a657f93d615cf40aece850ff65af2");</script>
+		<!-- end Mixpanel -->
+
+		<script>
+			if (typeof angular === 'undefined' && !/Googlebot|PhantomJS|Opera Mini.+Presto|^Opera\/9\./.test(navigator.userAgent)) {
+				setTimeout(function() {
+					var params = {};
+					try {
+						var params = JSON.parse(atob(decodeURIComponent(/[?&]instance=[^.]+\.([^.&]+)/.exec(location.search)[1]))) || {};
+					} catch (e) {
+						/* ignore */
+					}
+
+					var head = '';
+					try {
+						head = document.documentElement.innerHTML.match(/(scripts|styles)\/[0-9a-f]+\.[a-z]+\.(js|css)/g).join(', ');
+					} catch (e) {
+						/* ignore */
+					}
+
+					var counter = null;
+					try {
+						counter = parseInt(localStorage.getItem('_wxa_err_counter'), 10) || 0;
+						if (counter > 20) {
+							return;
+						}
+					} catch (e) {
+					}
+
+					var r = new XMLHttpRequest();
+					r.open('POST', 'https://wixapp.firebaseio.com/c/logq.json');
+					r.send(JSON.stringify({
+						event: 'App load failed',
+						line: 'App load failed',
+						page: 'widget',
+						timestamp: {'.sv': 'timestamp'},
+						browser: navigator.userAgent,
+						instance: params.instanceId || 'unknown',
+						premium: (params.vendorProductId === 'Premium1'),
+						owner: (params.permissions === 'OWNER'),
+						errorCounter: counter,
+						workaroundVersion: 6,
+						head: head
+					}));
+
+					try {
+						localStorage.setItem('_wxa_err_counter', counter+1);
+					} catch (e) {
+						/* ignore */
+					}
+				}, 0);
+
+				setTimeout(function() {
+					var xhr = new XMLHttpRequest();
+					xhr.open('PURGE', '/index.html');
+					xhr.send();
+				}, 0);
+
+				setTimeout(function() {
+					document.documentElement.innerHTML.match(/(scripts|styles)\/[0-9a-f]+\.[a-z]+\.(js|css)/g).forEach(function(resource) {
+						var xhr = new XMLHttpRequest();
+						xhr.open('PURGE', resource);
+						xhr.send();
+					});
+				}, 0);
+
+				setTimeout(function() {
+					location.reload(true);
+					ga('send', 'event', 'Errors', 'No Angular', 'widget');
+				}, 500);
+			}
+		</script>
+	
+
+</body></html>

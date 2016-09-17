@@ -1,0 +1,91 @@
+
+var uid = 'wix413492';
+var db = '12';
+var delta_time = '7200';
+var new_session = 'yes';
+var user_status = 'regular';
+if ('regular' == 'premium' && 'no' != 'yes'){
+   document.getElementById("wtstimer919243").innerHTML = db+'::'+uid+'::'+delta_time+'::'+new_session+'::V9h0fWiC2rkAAD-AyikAAAAI::V9h0fWiC2rkAAD-AyikAAAAI';
+}
+
+if ('no' != 'yes'){
+
+   if ('en' == 'fr'){
+      var host = 'fr.web-stat.com';
+   }
+   else{
+      var host = 'www.web-stat.com';
+   }
+
+   if ('wix_free' == 'wix_free'){
+      var idTag =  'source=WixStats&encID=572d76238d502c7122bc512b7529bd5b223178fc55297525bd53227c66ed19472063e104112728b3542f7172b3022a7122bc53202423b0567c7426e105287126e1057b7075'; 
+   }
+   else {
+      var idTag =  'PublicID=wix413492';
+   }
+
+   if ('visitor_details' == 'visitor_details'){
+      var click_target = 'streaming_details2.pl';
+   }
+   else{
+      var click_target = 'checkstats.pl';
+   }
+
+   function getStyle(el,styleProp){
+      var x = document.getElementById(el);
+      if (x.currentStyle)
+         var y = x.currentStyle[styleProp];
+      else if (window.getComputedStyle)
+         var y = document.defaultView.getComputedStyle(x,null).getPropertyValue(styleProp);
+      return y;
+   }
+
+   function colorToHex(color) {
+      if (color.substr(0, 1) === '#') {
+         return color;
+      }
+      if (color.match(/(.*?)rgb\((\d+), (\d+), (\d+)\)/)){
+         var r = parseInt(RegExp.$2);
+         var g = parseInt(RegExp.$3);
+         var b = parseInt(RegExp.$4);
+         return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+      }
+   }
+
+   function componentToHex(c) {
+      var hex = c.toString(16);
+      return hex.length == 1 ? "0" + hex : hex;
+   }
+
+   if ('font-size:12px; font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive; color:rgba(210,176,7,1); background-color:rgba(45,37,37,0); letter-spacing:10px; display:inline-block; min-width:110px; padding:0px 13px; border:solid 0px rgba(221,119,11,0.123); border-radius:0px; text-decoration:none;' != ''){
+      var style = 'font-size:12px; font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive; color:rgba(210,176,7,1); background-color:rgba(45,37,37,0); letter-spacing:10px; display:inline-block; min-width:110px; padding:0px 13px; border:solid 0px rgba(221,119,11,0.123); border-radius:0px; text-decoration:none;';
+   }
+   else{
+      var color = (getStyle("wts919243", "color"));
+      color = colorToHex(color);
+      var size = (getStyle("wts919243", "font-size"));
+      var font = (getStyle("wts919243", "font-family"));
+      var style = 'text-decoration:none; color:'+color+'; font-size:'+size+'; font-family:'+font;
+   }
+
+   var counter = '45473';
+   var objRegExp = new RegExp('([0-9]+)([0-9]{3})'); 
+   while(objRegExp.test(counter)){
+      counter = counter.replace(objRegExp, '$1,$2');
+   }
+
+
+   //if ('86.196.112.222' == "74.243.246.87" || '10.183.251.101' == "74.243.246.87"){
+   // alert('regular');
+   //}
+
+   if ('visitor_details' == 'no_click'){
+      document.getElementById("wts919243").innerHTML = '<span style="display:inline-block; text-align:center;"><span class="" style="'+style+'">&nbsp;'+counter+'</span><a href="http://'+host+'/stats/'+click_target+'?'+idTag+'" target="_new" style="text-decoration:none;"><span style="display:block; margin:3px auto; background:#fff; padding-top:1px; width:100px; font-size:10px; text-align:center; border:solid 1px #ccc; font-family:Futura,Trebuchet MS,Arial,sans-serif; color:#444;"><img src="http://0c1cae7590deb8972a01-d6d0211b087b311310991d68f8b0dd80.r76.cf2.rackcdn.com/WS_symbol_20x10_000000.png" width="20" height="10">WEB-STAT</span></a></span>';
+   }
+   else{
+      document.getElementById("wts919243").innerHTML = '<span style="display:inline-block; text-align:center;"><a href="http://'+host+'/stats/'+click_target+'?'+idTag+'" class="" style="'+style+'" target="_new">&nbsp;'+counter+'</a><a href="http://'+host+'/stats/'+click_target+'?'+idTag+'" target="_new" style="text-decoration:none;"><span style="display:block; margin:3px auto; background:#fff; padding-top:1px; width:100px; font-size:10px; text-align:center; border:solid 1px #ccc; font-family:Futura,Trebuchet MS,Arial,sans-serif; color:#444;"><img src="http://0c1cae7590deb8972a01-d6d0211b087b311310991d68f8b0dd80.r76.cf2.rackcdn.com/WS_symbol_20x10_000000.png" width="20" height="10">WEB-STAT</span></a></span>';
+   }
+
+
+}
+

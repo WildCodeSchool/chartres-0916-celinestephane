@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<!-- saved from url=(0556)http://server2.web-stat.com/wixStats2.pl?cacheKiller=1473802000022&compId=ibcokrvd&deviceType=desktop&instance=Kp-fzNvDr-5I4DVMe53WI-P2UmuRl-evczgXbbTkaak.eyJpbnN0YW5jZUlkIjoiMTNlYjE3MzctNjA4Mi03NjA5LWViODMtZTU2OGNmOGRjZjk2Iiwic2lnbkRhdGUiOiIyMDE2LTA5LTEzVDIxOjI2OjM0LjQyNFoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6Ijg2LjE5Ni4xMTIuMjIyLzU3ODM3IiwidmVuZG9yUHJvZHVjdElkIjpudWxsLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjU0YWY0MzU0LTdlOWYtNGFlOC05ZWMwLWIxYjU4ODNhMDI4MiIsInNpdGVPd25lcklkIjoiZDQ2ZjZlODgtZjFiMC00YTg1LThmOGYtMzI0MzA2MTEzZTdlIn0&locale=en&viewMode=site&width=126 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title></title>
+<style></style>
+<!--<script type="text/javascript" src="//sslstatic.wix.com/services/js-sdk/1.41.0/js/wix.min.js"></script>-->
+<!--<script type="text/javascript" src="//sslstatic.wix.com/services/js-sdk/1.43.0/js/wix.min.js"></script>-->
+<!--<script type="text/javascript" src="//sslstatic.wix.com/services/js-sdk/1.45.0/js/wix.min.js"></script>-->
+<!--<script type="text/javascript" src="//sslstatic.wix.com/services/js-sdk/1.52.0/js/wix.min.js"></script>--> 
+<script type="text/javascript" src="./wix.min.js"></script>
+<script type="text/javascript">
+
+var wtsh = {};
+wtsh['index'] = 0;
+var conv_array = [];
+if (''){
+   var conv_settingi = '';
+   var raw_setting = '';
+   var conv_setting = raw_setting.split("|");
+   for (var i = 0; i < conv_setting.length; i++){
+      conv_settingi = conv_setting[i].split("::");
+      conv_array.push({page:conv_settingi[0], conv_n:conv_settingi[1]});
+   }
+}
+
+
+////////////////
+function Init(){
+
+   var viewMode3 = Wix.Utils.getViewMode();
+
+   // new settings panel or old?
+   var newSettingsPanel = '';
+   Wix.Features.isSupported( Wix.Features.Types.PREVIEW_TO_SETTINGS, function(test){ newSettingsPanel = test;} );
+
+
+   // adjust the frame size for fixed widgets
+   if (typeof Wix.resizeWindow !== 'undefined' || 'text' == 'panel') {
+      adjustFrame();
+   }
+
+   // reload upon page change
+   Wix.addEventListener(Wix.Events.PAGE_NAVIGATION, function() {
+      window.location.reload();
+   });
+
+
+   // detect app removal
+   Wix.addEventListener(Wix.Events.COMPONENT_DELETED, function() {   
+      //recordRemoved();  // does not work: won't fire if removal is too quick use events instead
+      newwindow=window.open('http://server2.web-stat.com/wixStatsRecordRemoval.pl?wix413492','name','height=135,width=200,menubar=no,status=no,titlebar=no,toolbar=no,location=no');
+   });
+
+   // start tracking
+   loadData(wtsh, 
+            function(wtsh){ 
+                           getConv(wtsh,
+                                   function(wtsh){printCode(wtsh);}
+                                   ); 
+                          } 
+            );
+
+   Wix.getCurrentPageId(function(pageId) {
+      var viewMode = Wix.Utils.getViewMode();
+      if (viewMode != 'site' && ! newSettingsPanel){
+         if(pageId != 'master'){
+            if ('no' == 'yes' || 'no' == ''){
+               ajaxSetOnAllPages('no');
+            }
+         }
+         else {
+            if ('no' == 'no' || 'no' == ''){
+               ajaxSetOnAllPages('yes');
+            }
+         }
+      }
+
+
+      if (viewMode == 'editor' && 'yes' == 'no'){
+         if (newSettingsPanel){
+            document.getElementById('wtshandle').innerHTML = '<img src="'+'http://0c1cae7590deb8972a01-d6d0211b087b311310991d68f8b0dd80.r76.cf2.rackcdn.com'+'/set_design_options_'+'en'+'_2.png" width="218" height="96" alt="" border="0" style="position:absolute; bottom:3px; right:2px;">';
+         }
+         else{
+            document.getElementById('wtshandle').innerHTML = '<img src="'+'http://0c1cae7590deb8972a01-d6d0211b087b311310991d68f8b0dd80.r76.cf2.rackcdn.com'+'/set_design_options_'+'en'+'_3.png" width="215" height="97" alt="" border="0" style="position:absolute; bottom:3px; right:2px;">';
+         }
+      }
+
+
+   });
+
+
+   if ('no' == 'yes'){
+      var viewMode = Wix.Utils.getViewMode();
+      if (viewMode == 'editor'){
+         document.getElementById('wtshandle').innerHTML='';
+      }
+      else {
+         document.getElementById('wtshandle').innerHTML='';
+      }
+
+      // detect switch from editor to preview in Wix site builder
+      Wix.addEventListener(Wix.Events.EDIT_MODE_CHANGE,function() {
+         if (Wix.Utils.getViewMode() == 'editor'){
+            document.getElementById('wtshandle').innerHTML='';
+         }
+         else {
+            document.getElementById('wtshandle').innerHTML='';
+         }
+      });
+   }
+   else {
+      Wix.addEventListener(Wix.Events.EDIT_MODE_CHANGE,function() {
+          window.location.reload();
+      });
+   }
+
+
+}
+
+
+
+////////////////
+window.onerror = function(message, file, line){
+//   logError(file+':::'+line+':::'+message+':::'+navigator.userAgent);
+   return true;
+};
+
+
+
+///////////////////////
+function adjustFrame(){
+    if (document.getElementById('wts919243').offsetWidth > 10){
+      var width = document.getElementById('wts919243').offsetWidth+20;
+      var height = document.getElementById('wts919243').offsetHeight+15;
+      Wix.resizeWindow(width,height);
+    }
+    else{
+       window.setTimeout("adjustFrame();",100);
+    }
+}
+
+
+
+
+//////////////////////////////////////
+function loadData(wtsh,callback){
+
+   Wix.getSiteInfo( function(siteInfo) {
+
+      wtsh['url'] = siteInfo.url;
+      if (wtsh['url'].indexOf("editor.wix.com") > -1){
+         wtsh['url'] = 'http://editor.wix.com';
+      }
+      else if (wtsh['url'].indexOf("web-stat.com") > -1){
+         wtsh['url'] = 'http://www.wix.com';
+      }
+
+      wtsh['page_name'] = siteInfo.pageTitle;
+
+      var referer = siteInfo.referer || siteInfo.referrer;
+      if (referer == '') { 
+         wtsh['referer'] = 'wix_none'; 
+      }
+      else {
+         wtsh['referer'] = referer;
+      }
+
+      if (wtsh['page_name'] != '' || wtsh['index'] >= 10){
+         callback(wtsh);
+      }
+      else{
+         wtsh['index']++;
+         Timeout(function(){ 
+            loadData(wtsh, 
+               function(wtsh){ 
+                  getConv(wtsh,
+                     function(wtsh){printCode(wtsh);}
+                  ); 
+               } 
+            );
+         }, 500);
+      }
+   }
+   ); 
+
+}
+
+
+
+
+/////////////////////////////////
+function getConvNumber(thisPage){
+   var conversion_number = '';
+   for (var i=0; i < conv_array.length; i++){
+     if (conv_array[i].page == thisPage){
+        conversion_number = conv_array[i].conv_n;
+        break;
+     }
+   }
+   return conversion_number;
+}
+
+
+////////////////////////////////
+function getConv(wtsh,callback){
+
+   if (''){
+      // get PageId
+      Wix.getSitePages( function (sitePages){
+         var thisPage = '';
+         var conversion_number = '';
+         for (var i = 0; i < sitePages.length; i++) {
+            if (sitePages[i].title == wtsh['page_name']){
+               thisPage = sitePages[i].id;
+               conversion_number = getConvNumber(thisPage);
+               if (conversion_number){ break; }
+            }
+            if (sitePages[i].subPages){
+               for (var j = 0; j < sitePages[i].subPages.length; j++) {
+                  if (sitePages[i].subPages[j].title == wtsh['page_name']){
+                     thisPage = sitePages[i].subPages[j].id;
+                     conversion_number = getConvNumber(thisPage);
+                     if (conversion_number){ break; }
+                  }
+               }
+            }
+         }
+         wtsh['conversion_number'] = conversion_number;
+         callback(wtsh);
+      });
+   }
+   else {
+     callback(wtsh);
+   }
+}
+
+
+/////////////////////////
+function printCode(wtsh){
+
+   wtsh['invisible']='no';
+   wtsh['custom']='wix';
+   var viewMode = Wix.Utils.getViewMode();
+
+   if (viewMode == 'editor'){
+      wtsh['params']='no_count';
+   }
+   else{
+     wtsh['params']='en';
+   }
+   if ('text' == 'panel'){
+      wtsh['live'] = 'yes';
+   }
+ 
+   var wts=document.createElement('script');wts.type='text/javascript';wts.async=true;
+   wts.src='//server2.web-stat.com/12/919243/log6_2.js';
+   document.getElementById('wts919243').appendChild(wts);
+}
+
+
+// set up AJAX request //
+ajaxRequest=getXmlHttpObject();
+
+////////////////////////////
+function getXmlHttpObject(){
+   if (window.XMLHttpRequest) { return new XMLHttpRequest(); }
+   if (window.ActiveXObject)  { return new ActiveXObject("Microsoft.XMLHTTP"); }
+   return null;
+}
+
+///////////////////////////
+function ajaxSetTimezone(){
+
+   var tz = jstz.determine_timezone();
+   tz = tz.name();
+   if (! tz){
+      tz = "America/New_York";
+   }
+   if (tz == "America/Santa_Isabel"){
+      tz = "America/Mexico_City";
+   }
+    
+   var db = '12';
+   var userID = 'wix413492';
+
+   var msg='/wixStatsAjax.pl?nocache='+Math.random()+'&action=SetTimeZone&params='+db+':::'+userID+':::'+tz;
+   ajaxRequest.onreadystatechange = stateChanged;
+   ajaxRequest.open('GET', msg, true);
+   ajaxRequest.send(null);
+
+}
+
+
+///////////////////////////
+function logError(details){
+   var msg='/wixStatsAjax.pl?nocache='+Math.random()+'&action=LogError&params='+escape(details);
+   ajaxRequest.onreadystatechange = stateChanged;
+   ajaxRequest.open('GET', msg, true);
+   ajaxRequest.send(null);
+}
+
+
+/////////////////////////////////////////
+function ajaxSetOnAllPages(on_all_pages){
+
+   var userID = 'wix413492';
+   var msg='/wixStatsAjax.pl?nocache='+Math.random()+'&action=SetOnAllPages&params='+userID+':::'+on_all_pages;
+
+   ajaxRequest.onreadystatechange = stateChanged;
+   ajaxRequest.open('GET', msg, true);
+   ajaxRequest.send(null);
+
+}
+
+/////////////////////////
+function recordRemoved(){
+
+   var instanceID = '13eb1737-6082-7609-eb83-e568cf8dcf96';
+   var msg='/wixStatsAjax.pl?nocache='+Math.random()+'&action=recordRemoved&params='+instanceID;
+
+   ajaxRequest.onreadystatechange = stateChanged;
+   ajaxRequest.open('GET', msg, true);
+   ajaxRequest.send(null);
+
+}
+
+////////////////////////
+function stateChanged(){
+   // if AJAX returned a list of markers, add them to the map
+   if (ajaxRequest.readyState==4) {
+      if (ajaxRequest.status==200) {
+         var response = ajaxRequest.responseText.split("::");
+         var item = response[0];
+         var message = response[1];
+         if (item == 'SetTimeZone'){
+            if (message != 'OK'){
+               alert("your time zone could not be set automatically. Please set it in the App Settings Panel");
+            }
+         }
+         else if (item == 'SetOnAllPages'){
+            if (message != 'OK'){
+               //alert("error");
+            }
+         }
+
+      }
+   }
+}
+
+
+if ('' == '1'){
+   //logError('1 - wix413492 - new_account created - going for timezone Ajax');
+   // we execute this right away. It needs to be done ASAP and there is No need to wait for the page to finish loading.
+   // if we do and the user stops the connection for any reason the time zone does not get set
+   ajaxSetTimezone();
+}
+
+
+</script>
+
+<style wix-style="">.Title{ font:normal normal normal 18px/1.1em "times new roman",times,serif; } .Menu{ font:normal normal bold 12px/1.1em arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif; } .Page-title{ font:normal normal normal 24px/1.4em "times new roman",times,serif; } .Heading-XL{ font:normal normal normal 60px/1.1em "times new roman",times,serif; } .Heading-L{ font:normal normal normal 44px/1.3em "times new roman",times,serif; } .Heading-M{ font:normal normal normal 36px/1.2em "times new roman",times,serif; } .Heading-S{ font:normal normal normal 24px/1.3em "times new roman",times,serif; } .Body-L{ font:normal normal bold 16px/1.3em "times new roman",times,serif; } .Body-M{ font:normal normal normal 13px/1.3em arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif; } .Body-S{ font:normal normal normal 12px/1.3em arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif; } .Body-XS{ font:normal normal normal 10px/1.3em arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif; } }</style><link type="text/css" rel="stylesheet" href="./latin(1).css"></head>
+<body onload="Init();">
+<span id="wtshandle"></span><div style="text-align:center;"><div id="wts919243" style="display:inline-block;"><span style="display:inline-block; text-align:center;"><a href="http://www.web-stat.com/stats/streaming_details2.pl?source=WixStats&amp;encID=572d76238d502c7122bc512b7529bd5b223178fc55297525bd53227c66ed19472063e104112728b3542f7172b3022a7122bc53202423b0567c7426e105287126e1057b7075" class="" style="font-size:12px; font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive; color:rgba(210,176,7,1); background-color:rgba(45,37,37,0); letter-spacing:10px; display:inline-block; min-width:110px; padding:0px 13px; border:solid 0px rgba(221,119,11,0.123); border-radius:0px; text-decoration:none;" target="_new">&nbsp;45,473</a><a href="http://www.web-stat.com/stats/streaming_details2.pl?source=WixStats&amp;encID=572d76238d502c7122bc512b7529bd5b223178fc55297525bd53227c66ed19472063e104112728b3542f7172b3022a7122bc53202423b0567c7426e105287126e1057b7075" target="_new" style="text-decoration:none;"><span style="display:block; margin:3px auto; background:#fff; padding-top:1px; width:100px; font-size:10px; text-align:center; border:solid 1px #ccc; font-family:Futura,Trebuchet MS,Arial,sans-serif; color:#444;"><img src="./WS_symbol_20x10_000000.png" width="20" height="10">WEB-STAT</span></a></span></div></div><noscript>
+&lt;a href="http://'.www.'.web-stat.com"&gt;&lt;img src="http://server2.web-stat.com/6/12/919243.gif" style="border:0px;" alt=""&gt;&lt;/a&gt;
+</noscript>
+
+<script type="text/javascript">
+if (1==0 && '' == '1'){  ## superfluous since we start with a small instruction set now
+   newwindow=window.open('http://wix.web-stat.com/wixOK.pl','name','height=500,width=500');
+   if (window.focus) {newwindow.focus()}
+}
+</script>
+
+
+
+<span id="wtstimer919243" style="display: none;"></span><script type="text/javascript" src="./count6.pl.téléchargement"></script></body></html>
